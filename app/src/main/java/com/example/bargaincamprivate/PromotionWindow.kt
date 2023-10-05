@@ -1,15 +1,11 @@
 package com.example.bargaincamprivate
 
 import android.app.Activity
-import android.os.Bundle
 import android.view.Gravity
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.PopupWindow
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatActivity
 
 class PromotionWindow(private val activity: Activity) {
 
@@ -31,10 +27,15 @@ class PromotionWindow(private val activity: Activity) {
 
         // Initialise the variables for the pop-up window
         val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin)
-        val popupText = popupView.findViewById<TextView>(R.id.popupText)
+        val aisleNumText = popupView.findViewById<TextView>(R.id.aisleNumText)
+        val promotionText = popupView.findViewById<TextView>(R.id.promotionText)
+        val endDateText = popupView.findViewById<TextView>(R.id.endDateText)
 
         // Set the variables for the pop-up window
-        popupText.text = "This is a Popup Window"
+        // ** EXTRACT: Extract data here **
+        aisleNumText.text = "Aisle Num"
+        promotionText.text = "Promotion"
+        endDateText.text = "End Date"
 
         // Show the pop-up window at the bottom right of the screen
         popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, margin, margin)
