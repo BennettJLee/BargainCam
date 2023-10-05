@@ -34,17 +34,27 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var promotionWindow: PromotionWindow
 
+    /**
+     * This function is called when this activity is started
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
 
+        // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
 
+        // Check if the app already has permissions
         if (!hasPermissions(baseContext)) {
+            // if not, request permissions
             activityResultLauncher.launch(REQUIRED_PERMISSIONS.toTypedArray())
         } else {
+            // if so, display the camera preview to the screen
             startCamera()
+
+
+            // ** TESTING: testing the pop-up **
             try {
                 val handler = Handler(Looper.getMainLooper())
                 handler.postDelayed({
@@ -53,9 +63,14 @@ class MainActivity : ComponentActivity() {
             } catch (e: Exception){
                 e.printStackTrace()
             }
+
+
         }
     }
 
+    /**
+     * This function starts the Camera Preview
+     */
     private fun startCamera() {
         val previewView: PreviewView = viewBinding.viewFinder
         cameraController = LifecycleCameraController(baseContext)
@@ -64,6 +79,9 @@ class MainActivity : ComponentActivity() {
         previewView.controller = cameraController
     }
 
+    /**
+     * This function asks the user for there permissions
+     */
     private val activityResultLauncher =
         registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions())
         { permissions ->
@@ -72,14 +90,25 @@ class MainActivity : ComponentActivity() {
                 if (it.key in REQUIRED_PERMISSIONS && it.value == false)
                     permissionGranted = false
             }
+            // check if the permission has been granted
             if (!permissionGranted) {
+                // If not, inform the user that this feature can't run without the permissions
                 Toast.makeText(this, "Both Camera and Location permissions are needed to use this feature.", Toast.LENGTH_LONG).show()
             } else {
+                // If so, display the camera preview
                 startCamera()
+
+
+                // ** TESTING: testing the pop-up **
                 promotionWindow.showPromotionWindow()
+
+
             }
         }
 
+    /**
+     * This object stores the permissions and has a function that checks permissions status
+     */
     companion object {
         private const val TAG = "BargainCamPrivate"
         private val REQUIRED_PERMISSIONS =
