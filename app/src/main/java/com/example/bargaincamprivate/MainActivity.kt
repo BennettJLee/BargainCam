@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
                     permissionGranted = false
             }
             if (!permissionGranted) {
-                Toast.makeText(this, "Please enable camera permissions.", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Both Camera and Location permissions are needed to use this feature.", Toast.LENGTH_LONG).show()
             } else {
                 startCamera()
             }
@@ -62,7 +62,8 @@ class MainActivity : ComponentActivity() {
         private const val TAG = "BargainCamPrivate"
         private val REQUIRED_PERMISSIONS =
             mutableListOf(
-                android.Manifest.permission.CAMERA
+                android.Manifest.permission.CAMERA,
+                android.Manifest.permission.ACCESS_COARSE_LOCATION
             )
         fun hasPermissions(context: Context) = REQUIRED_PERMISSIONS.all {
             ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
