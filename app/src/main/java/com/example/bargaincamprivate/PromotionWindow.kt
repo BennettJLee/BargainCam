@@ -30,14 +30,14 @@ class PromotionWindow(private val activity: Activity) {
         )
 
         // Initialise the variables for the pop-up window
-        val marginInPx = activity.resources.getDimensionPixelSize(R.dimen.popup_margin)
+        val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin)
         val popupText = popupView.findViewById<TextView>(R.id.popupText)
 
         // Set the variables for the pop-up window
         popupText.text = "This is a Popup Window"
 
         // Show the pop-up window at the bottom right of the screen
-        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, marginInPx, marginInPx)
+        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, margin, margin)
     }
 
     /**
