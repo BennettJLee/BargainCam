@@ -1,9 +1,18 @@
 package com.example.bargaincamprivate
 
+import android.R
 import android.R.attr.bitmap
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.view.Gravity
+import android.view.LayoutInflater
+import android.view.View
+import android.widget.LinearLayout
+import android.widget.PopupWindow
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
@@ -23,15 +32,27 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var cameraController: LifecycleCameraController
 
+    private lateinit var promotionWindow: PromotionWindow
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         viewBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(viewBinding.root)
 
+        promotionWindow = PromotionWindow(this)
+
         if (!hasPermissions(baseContext)) {
             activityResultLauncher.launch(REQUIRED_PERMISSIONS.toTypedArray())
         } else {
             startCamera()
+            try {
+                val handler = Handler(Looper.getMainLooper())
+                handler.postDelayed({
+                    promotionWindow.showPromotionWindow()
+                }, 1000)
+            } catch (e: Exception){
+                e.printStackTrace()
+            }
         }
     }
 
@@ -55,6 +76,7 @@ class MainActivity : ComponentActivity() {
                 Toast.makeText(this, "Both Camera and Location permissions are needed to use this feature.", Toast.LENGTH_LONG).show()
             } else {
                 startCamera()
+                promotionWindow.showPromotionWindow()
             }
         }
 
