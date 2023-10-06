@@ -26,7 +26,8 @@ class PromotionWindow(private val activity: Activity) {
         )
 
         // Initialise the variables for the pop-up window
-        val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin)
+        val marginHori = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_hori)
+        val marginVert = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_vert)
         val aisleNumText = popupView.findViewById<TextView>(R.id.aisleNumText)
         val promotionText = popupView.findViewById<TextView>(R.id.promotionText)
         val endDateText = popupView.findViewById<TextView>(R.id.endDateText)
@@ -38,7 +39,7 @@ class PromotionWindow(private val activity: Activity) {
         endDateText.text = "End Date"
 
         // Show the pop-up window at the bottom right of the screen
-        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, margin, margin)
+        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, marginHori, marginVert)
     }
 
     /**
