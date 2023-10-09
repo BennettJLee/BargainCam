@@ -14,7 +14,7 @@ class PromotionWindow(private val activity: Activity) {
     /**
      * This function displays the promotion pop-up window on the screen
      */
-    fun showPromotionWindow() {
+    fun showPromotionWindow(aisleNum: Int) {
 
         // Initialise the pop-up window
         val popupView = LayoutInflater.from(activity).inflate(R.layout.promotion_window, null)

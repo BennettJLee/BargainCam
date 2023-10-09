@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
             try {
                 val handler = Handler(Looper.getMainLooper())
                 handler.postDelayed({
-                    promotionWindow.showPromotionWindow()
+                    promotionWindow.showPromotionWindow(0)
                 }, 1000)
             } catch (e: Exception){
                 e.printStackTrace()
@@ -100,7 +100,7 @@ class MainActivity : ComponentActivity() {
 
 
                 // ** TESTING: testing the pop-up **
-                promotionWindow.showPromotionWindow()
+                promotionWindow.showPromotionWindow(0)
 
 
             }
