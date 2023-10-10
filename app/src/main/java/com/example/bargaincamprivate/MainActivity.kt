@@ -34,6 +34,8 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var promotionWindow: PromotionWindow
 
+    private lateinit var promotionData: PromotionData
+
     /**
      * This function is called when this activity is started
      */
@@ -45,6 +47,9 @@ class MainActivity : ComponentActivity() {
         // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
 
+        //Initialise the promotion data
+        promotionData = PromotionData
+
         // Check if the app already has permissions
         if (!hasPermissions(baseContext)) {
             // if not, request permissions
@@ -54,16 +59,36 @@ class MainActivity : ComponentActivity() {
             startCamera()
 
 
-            // ** TESTING: testing the pop-up **
+            // ** TESTING: testing the json **
+            promotionData.loadJsonData(405)
+            Toast.makeText(this, "Loading Data.", Toast.LENGTH_LONG).show()
+
             try {
                 val handler = Handler(Looper.getMainLooper())
                 handler.postDelayed({
-                    promotionWindow.showPromotionWindow(0)
+                    var dataList = promotionData.loadPromotionList()
+                    if(dataList.isEmpty()) {
+                            Toast.makeText(this, "Loading Data", Toast.LENGTH_SHORT).show()
+                    }else{
+                        for (data in dataList) {
+                            val toastMessage = "ID: ${data.id}"
+                            Toast.makeText(this, toastMessage, Toast.LENGTH_SHORT).show()
+                        }
+                    }
                 }, 1000)
             } catch (e: Exception){
                 e.printStackTrace()
             }
 
+            // ** TESTING: testing the pop-up **
+            try {
+                val handler = Handler(Looper.getMainLooper())
+                handler.postDelayed({
+                    promotionWindow.showPromotionWindow(12)
+                }, 5000)
+            } catch (e: Exception){
+                e.printStackTrace()
+            }
 
         }
     }
@@ -99,9 +124,36 @@ class MainActivity : ComponentActivity() {
                 startCamera()
 
 
-                // ** TESTING: testing the pop-up **
-                promotionWindow.showPromotionWindow(0)
+                // ** TESTING: testing the json **
+                promotionData.loadJsonData(405)
+                Toast.makeText(this, "Loading Data.", Toast.LENGTH_LONG).show()
 
+                try {
+                    val handler = Handler(Looper.getMainLooper())
+                    handler.postDelayed({
+                        var dataList = promotionData.loadPromotionList()
+                        if(dataList.isEmpty()) {
+                            Toast.makeText(this, "Loading Data", Toast.LENGTH_SHORT).show()
+                        }else{
+                            for (data in dataList) {
+                                val toastMessage = "ID: ${data.id}"
+                                Toast.makeText(this, toastMessage, Toast.LENGTH_SHORT).show()
+                            }
+                        }
+                    }, 1000)
+                } catch (e: Exception){
+                    e.printStackTrace()
+                }
+
+                // ** TESTING: testing the pop-up **
+                try {
+                    val handler = Handler(Looper.getMainLooper())
+                    handler.postDelayed({
+                        promotionWindow.showPromotionWindow(12)
+                    }, 5000)
+                } catch (e: Exception){
+                    e.printStackTrace()
+                }
 
             }
         }

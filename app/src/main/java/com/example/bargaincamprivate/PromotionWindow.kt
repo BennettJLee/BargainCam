@@ -1,19 +1,27 @@
 package com.example.bargaincamprivate
 
+import android.annotation.SuppressLint
 import android.app.Activity
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.PopupWindow
 import android.widget.TextView
+import android.widget.Toast
+import com.squareup.picasso.Picasso
 
 class PromotionWindow(private val activity: Activity) {
 
     private lateinit var popupWindow: PopupWindow
 
+    private lateinit var promotionData: PromotionData
+
     /**
      * This function displays the promotion pop-up window on the screen
      */
+    @SuppressLint("SetTextI18n")
     fun showPromotionWindow(aisleNum: Int) {
 
         // Initialise the pop-up window
@@ -31,12 +39,30 @@ class PromotionWindow(private val activity: Activity) {
         val aisleNumText = popupView.findViewById<TextView>(R.id.aisleNumText)
         val promotionText = popupView.findViewById<TextView>(R.id.promotionText)
         val endDateText = popupView.findViewById<TextView>(R.id.endDateText)
+        val promotionImage = popupView.findViewById<ImageView>(R.id.promotionImage)
 
         // Set the variables for the pop-up window
-        // ** EXTRACT: Extract data here **
-        aisleNumText.text = "Aisle Num"
-        promotionText.text = "Promotion"
-        endDateText.text = "End Date"
+        aisleNumText.text = ""
+        promotionText.text = "Promotion Not Found"
+        endDateText.text = ""
+
+        promotionData = PromotionData
+
+        var promotionList = promotionData.loadPromotionList()
+
+        for (item in promotionList) {
+            val regex = Regex("$aisleNum")
+
+            Log.e("TAG", item.location + regex)
+
+            if(regex.containsMatchIn(item.location)) {
+                aisleNumText.text = "Aisle " + aisleNum.toString()
+                promotionText.text = item.name
+                endDateText.text = "Ends " + item.endDate
+                Picasso.get().load(item.image).into(promotionImage)
+                break;
+            }
+        }
 
         // Show the pop-up window at the bottom right of the screen
         popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, marginHori, marginVert)

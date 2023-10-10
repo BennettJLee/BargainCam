@@ -60,6 +60,9 @@ dependencies {
     implementation("androidx.camera:camera-view:${cameraxVersion}")
     //implementation("androidx.camera:camera-mlkit-vision:${camerax_version}")
 
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
+
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     implementation("com.google.mlkit:text-recognition:16.0.0")

@@ -1,0 +1,54 @@
+package com.example.bargaincamprivate
+
+import android.nfc.Tag
+import android.util.Log
+import android.widget.Toast
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+
+object PromotionData {
+
+    private const val url = "https://raw.githubusercontent.com/BennettJLee/BargainCam/main/PromotionData.json"
+    private lateinit var promotionList: List<PromotionDataItem>
+    private var isInitialised: Boolean = false
+
+    fun loadJsonData(storeNum: Int) {
+
+        if(!isInitialised) {
+            val promotionJson = PromotionJson
+
+            GlobalScope.launch(Dispatchers.IO) {
+                try {
+                    promotionList = promotionJson.loadDataFromUrl(url, storeNum)
+                    Log.e("Tag", "Loading Data from pd")
+                    isInitialised = true;
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
+            }
+        }
+    }
+
+    /**
+     * This function will load the Promotion List into a list if the promotionlist has been initialised
+     */
+    fun loadPromotionList() : List<PromotionDataItem> {
+        if(::promotionList.isInitialized){
+            return promotionList
+        }
+        return emptyList()
+    }
+}
+
+data class PromotionDataItem(
+    val id : String,
+    val name : String,
+    val legal : String,
+    val image : String,
+    val startDate : String,
+    val endDate : String,
+    val count : Int,
+    val location : String
+)
+
