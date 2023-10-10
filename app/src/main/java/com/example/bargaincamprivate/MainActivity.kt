@@ -133,7 +133,7 @@ class MainActivity : ComponentActivity() {
     }
 
     /**
-     * This function sets up the camera display content
+     * This function sets  up the camera display content
      */
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
