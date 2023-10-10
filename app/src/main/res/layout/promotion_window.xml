@@ -42,10 +42,12 @@
             android:layout_marginBottom="0dp"
             android:layout_weight="0"
             android:gravity="center|start"
+            android:letterSpacing="0.01"
+            android:maxLines="2"
             android:text="Promotion"
             android:textAlignment="textStart"
             android:textColor="#000000"
-            android:textSize="20sp"
+            android:textSize="16sp"
             android:textStyle="bold" />
 
         <TextView
@@ -61,17 +63,19 @@
             android:text="End Date"
             android:textAlignment="textStart"
             android:textColor="#636363"
-            android:textSize="12sp" />
+            android:textSize="10sp" />
 
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/promotionImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10sp"
         android:layout_marginEnd="10sp"
         android:layout_marginBottom="10sp"
+        android:maxWidth="80sp"
+        android:maxHeight="80sp"
         android:minWidth="80sp"
         android:minHeight="80sp"
         android:scaleType="fitXY"
