@@ -11,6 +11,12 @@ class PromotionWindow(private val activity: Activity) {
 
     private lateinit var popupWindow: PopupWindow
 
+    var Aisle : String = " "
+
+    fun updateAisle(Num : String)
+    {
+        Aisle = Num
+    }
     /**
      * This function displays the promotion pop-up window on the screen
      */
@@ -33,9 +39,14 @@ class PromotionWindow(private val activity: Activity) {
 
         // Set the variables for the pop-up window
         // ** EXTRACT: Extract data here **
-        aisleNumText.text = "Aisle Num"
+        aisleNumText.text = "Aisle Num: $Aisle"
         promotionText.text = "Promotion"
         endDateText.text = "End Date"
+
+        fun AisleChange(Aisle : String)
+        {
+            aisleNumText.text = "Aisle Num: $Aisle"
+        }
 
         // Show the pop-up window at the bottom right of the screen
         popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, margin, margin)
@@ -56,4 +67,6 @@ class PromotionWindow(private val activity: Activity) {
             popupWindow.dismiss()
         }
     }
+
+
 }
