@@ -51,12 +51,9 @@ class PromotionWindow(private val activity: Activity) {
         var promotionList = promotionData.loadPromotionList()
 
         for (item in promotionList) {
-            val regex = Regex("$aisleNum")
 
-            Log.e("TAG", item.location + regex)
-
-            if(regex.containsMatchIn(item.location)) {
-                aisleNumText.text = "Aisle " + aisleNum.toString()
+            if(item.location.contains("Isle$aisleNum")) {
+                aisleNumText.text = "Aisle $aisleNum"
                 promotionText.text = item.name
                 endDateText.text = "Ends " + item.endDate
                 Picasso.get().load(item.image).into(promotionImage)

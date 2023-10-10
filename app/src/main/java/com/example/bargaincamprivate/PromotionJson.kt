@@ -16,7 +16,6 @@ class PromotionJson {
             val client = OkHttpClient()
             val request = Request.Builder()
                 .url(url)
-                .header("Authorization", "token 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")
                 .build()
 
             //get connection response
@@ -39,9 +38,7 @@ class PromotionJson {
                 val count = jsonObject.getInt("promotionProductCount")
                 val location = jsonObject.getString("location")
 
-                val regex = Regex("\\b$storeNum\\b")
-
-                if(regex.containsMatchIn(location)) {
+                if(location.contains(storeNum.toString())) {
                     val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, location)
                     promotionList.add(promotionDataModel)
                 }

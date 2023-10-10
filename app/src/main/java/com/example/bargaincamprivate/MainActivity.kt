@@ -68,7 +68,7 @@ class MainActivity : ComponentActivity() {
                 handler.postDelayed({
                     var dataList = promotionData.loadPromotionList()
                     if(dataList.isEmpty()) {
-                            Toast.makeText(this, "Loading Data", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Loading Data pd", Toast.LENGTH_SHORT).show()
                     }else{
                         for (data in dataList) {
                             val toastMessage = "ID: ${data.id}"

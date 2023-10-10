@@ -11,21 +11,16 @@ object PromotionData {
 
     private const val url = "https://raw.githubusercontent.com/BennettJLee/BargainCam/main/PromotionData.json"
     private lateinit var promotionList: List<PromotionDataItem>
-    private var isInitialised: Boolean = false
 
     fun loadJsonData(storeNum: Int) {
+        val promotionJson = PromotionJson
 
-        if(!isInitialised) {
-            val promotionJson = PromotionJson
+        GlobalScope.launch(Dispatchers.IO) {
+            try {
+                promotionList = promotionJson.loadDataFromUrl(url, storeNum)
 
-            GlobalScope.launch(Dispatchers.IO) {
-                try {
-                    promotionList = promotionJson.loadDataFromUrl(url, storeNum)
-                    Log.e("Tag", "Loading Data from pd")
-                    isInitialised = true;
-                } catch (e: Exception) {
-                    e.printStackTrace()
-                }
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
         }
     }
