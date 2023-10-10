@@ -13,6 +13,7 @@ class PromotionWindow(private val activity: Activity) {
 
     var Aisle : String = " "
 
+
     fun updateAisle(Num : String)
     {
         Aisle = Num
