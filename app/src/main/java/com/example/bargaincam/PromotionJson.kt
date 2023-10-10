@@ -45,6 +45,19 @@ class PromotionJson {
 
             return promotionList
         }
+
+        private fun findPromotions(
+            aisleNumber: String,
+            promotions: List<PromotionDataItem>): List<String> {
+            val matchingPromotionIds = mutableListOf<String>()
+            for (promotion in promotions) {
+                val tempAisle = promotion.location
+                if (tempAisle.contains("aisle" + aisleNumber)) {
+                    matchingPromotionIds.add(promotion.id)
+                }
+            }
+            return matchingPromotionIds
+        }
     }
 }
 
