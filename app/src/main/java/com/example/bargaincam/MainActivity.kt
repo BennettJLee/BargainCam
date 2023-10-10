@@ -1,18 +1,10 @@
-package com.example.bargaincamprivate
+package com.example.bargaincam
 
-import android.R
-import android.R.attr.bitmap
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.View
-import android.widget.LinearLayout
-import android.widget.PopupWindow
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.result.contract.ActivityResultContracts
@@ -20,10 +12,7 @@ import androidx.camera.core.CameraSelector
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.PreviewView
 import androidx.core.content.ContextCompat
-import com.example.bargaincamprivate.databinding.ActivityMainBinding
-import com.google.mlkit.vision.common.InputImage
-import com.google.mlkit.vision.text.TextRecognition
-import com.google.mlkit.vision.text.latin.TextRecognizerOptions
+import com.example.bargaincam.databinding.ActivityMainBinding
 
 
 class MainActivity : ComponentActivity() {
@@ -60,7 +49,7 @@ class MainActivity : ComponentActivity() {
 
 
             // ** TESTING: testing the json **
-            promotionData.loadJsonData(405)
+            promotionData.loadJsonData(208)
             Toast.makeText(this, "Loading Data.", Toast.LENGTH_LONG).show()
 
             try {
@@ -84,7 +73,7 @@ class MainActivity : ComponentActivity() {
             try {
                 val handler = Handler(Looper.getMainLooper())
                 handler.postDelayed({
-                    promotionWindow.showPromotionWindow(12)
+                    promotionWindow.showPromotionWindow(1)
                 }, 5000)
             } catch (e: Exception){
                 e.printStackTrace()
@@ -125,7 +114,7 @@ class MainActivity : ComponentActivity() {
 
 
                 // ** TESTING: testing the json **
-                promotionData.loadJsonData(405)
+                promotionData.loadJsonData(208)
                 Toast.makeText(this, "Loading Data.", Toast.LENGTH_LONG).show()
 
                 try {
@@ -149,7 +138,7 @@ class MainActivity : ComponentActivity() {
                 try {
                     val handler = Handler(Looper.getMainLooper())
                     handler.postDelayed({
-                        promotionWindow.showPromotionWindow(12)
+                        promotionWindow.showPromotionWindow(1)
                     }, 5000)
                 } catch (e: Exception){
                     e.printStackTrace()

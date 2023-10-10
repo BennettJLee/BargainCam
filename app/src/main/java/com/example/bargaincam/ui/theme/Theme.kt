@@ -1,4 +1,4 @@
-package com.example.bargaincamprivate.ui.theme
+package com.example.bargaincam.ui.theme
 
 import android.app.Activity
 import android.os.Build

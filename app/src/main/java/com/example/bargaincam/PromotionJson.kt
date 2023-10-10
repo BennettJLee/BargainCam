@@ -1,6 +1,5 @@
-package com.example.bargaincamprivate
+package com.example.bargaincam
 
-import android.util.Log
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray

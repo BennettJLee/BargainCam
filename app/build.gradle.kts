@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bargaincamprivate"
+    namespace = "com.example.bargaincam"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.bargaincamprivate"
+        applicationId = "com.example.bargaincam"
         minSdk = 26
         targetSdk = 33
         versionCode = 1

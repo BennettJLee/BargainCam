@@ -1,4 +1,4 @@
-package com.example.bargaincamprivate.ui.theme
+package com.example.bargaincam.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
