@@ -1,4 +1,4 @@
-package com.example.bargaincamprivate
+package com.example.bargaincam
 
 import android.app.Activity
 import android.view.Gravity
@@ -33,7 +33,7 @@ class PromotionWindow(private val activity: Activity) {
         )
 
         // Initialise the variables for the pop-up window
-        val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin)
+        val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_vert)
         val aisleNumText = popupView.findViewById<TextView>(R.id.aisleNumText)
         val promotionText = popupView.findViewById<TextView>(R.id.promotionText)
         val endDateText = popupView.findViewById<TextView>(R.id.endDateText)
