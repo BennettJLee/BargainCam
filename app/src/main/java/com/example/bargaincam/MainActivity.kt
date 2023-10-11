@@ -74,6 +74,8 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var promotionWindow: PromotionWindow
 
+    private lateinit var promotionData: PromotionData
+
     /**
      * This function is called when this activity is started
      */
@@ -85,6 +87,11 @@ class MainActivity : ComponentActivity() {
         // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
 
+        //Initialise the promotion data
+        promotionData = PromotionData
+        promotionData.loadJsonData(208) // StoreNum goes here after running the locationFinder
+
+
         // Check if the app already has permissions
         if (!hasPermissions(baseContext)) {
             // if not, request permissions
@@ -94,18 +101,6 @@ class MainActivity : ComponentActivity() {
             setContent {
                 CameraLaunch()
             }
-
-
-            // ** TESTING: testing the pop-up **
-            try {
-                val handler = Handler(Looper.getMainLooper())
-                handler.postDelayed({
-                    promotionWindow.showPromotionWindow()
-                }, 1000)
-            } catch (e: Exception){
-                e.printStackTrace()
-            }
-
 
         }
     }
@@ -128,14 +123,18 @@ class MainActivity : ComponentActivity() {
         val lifecycleOwner: LifecycleOwner = LocalLifecycleOwner.current
         val cameraController: LifecycleCameraController = remember { LifecycleCameraController(context) }
         var detectedText: String by remember { mutableStateOf(" ") }
-        var NumText: String
+        var numText: String
+        var aisleNum: Int
+        var lastAisleNum = -1
 
         fun onTextUpdated(updatedText: String) {
-            NumText = updatedText.filter { it.isDigit() }
-            detectedText = NumText
-            promotionWindow.closePromotionWindow()
-            promotionWindow.updateAisle(detectedText)
-            promotionWindow.showPromotionWindow()
+            numText = updatedText.filter { it.isDigit() }
+            detectedText = numText
+            aisleNum = Integer.parseInt(detectedText)
+            if(lastAisleNum == -1 || lastAisleNum != aisleNum){
+                promotionWindow.closePromotionWindow()
+                promotionWindow.showPromotionWindow(aisleNum)
+            }
         }
 
         Scaffold(modifier = Modifier.fillMaxSize())
@@ -234,11 +233,6 @@ class MainActivity : ComponentActivity() {
                 setContent {
                     CameraLaunch()
                 }
-
-
-                // ** TESTING: testing the pop-up **
-                promotionWindow.showPromotionWindow()
-
 
             }
         }

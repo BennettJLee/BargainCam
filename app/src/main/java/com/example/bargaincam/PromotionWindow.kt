@@ -1,27 +1,26 @@
 package com.example.bargaincam
 
+import android.annotation.SuppressLint
 import android.app.Activity
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.PopupWindow
 import android.widget.TextView
+import com.squareup.picasso.Picasso
 
 class PromotionWindow(private val activity: Activity) {
 
     private lateinit var popupWindow: PopupWindow
 
-    var Aisle : String = " "
+    private lateinit var promotionData: PromotionData
 
-
-    fun updateAisle(Num : String)
-    {
-        Aisle = Num
-    }
     /**
      * This function displays the promotion pop-up window on the screen
      */
-    fun showPromotionWindow() {
+    @SuppressLint("SetTextI18n")
+    fun showPromotionWindow(aisleNum: Int) {
 
         // Initialise the pop-up window
         val popupView = LayoutInflater.from(activity).inflate(R.layout.promotion_window, null)
@@ -33,24 +32,35 @@ class PromotionWindow(private val activity: Activity) {
         )
 
         // Initialise the variables for the pop-up window
-        val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_vert)
+        val marginHori = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_hori)
+        val marginVert = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_vert)
         val aisleNumText = popupView.findViewById<TextView>(R.id.aisleNumText)
         val promotionText = popupView.findViewById<TextView>(R.id.promotionText)
         val endDateText = popupView.findViewById<TextView>(R.id.endDateText)
+        val promotionImage = popupView.findViewById<ImageView>(R.id.promotionImage)
 
         // Set the variables for the pop-up window
-        // ** EXTRACT: Extract data here **
-        aisleNumText.text = "Aisle Num: $Aisle"
-        promotionText.text = "Promotion"
-        endDateText.text = "End Date"
+        aisleNumText.text = ""
+        promotionText.text = "Promotion Not Found"
+        endDateText.text = ""
 
-        fun AisleChange(Aisle : String)
-        {
-            aisleNumText.text = "Aisle Num: $Aisle"
+        promotionData = PromotionData
+
+        var promotionList = promotionData.loadPromotionList()
+
+        for (item in promotionList) {
+
+            if(item.location.contains("Isle$aisleNum")) {
+                aisleNumText.text = "Aisle $aisleNum"
+                promotionText.text = item.name
+                endDateText.text = "Ends " + item.endDate
+                Picasso.get().load(item.image).into(promotionImage)
+                break;
+            }
         }
 
         // Show the pop-up window at the bottom right of the screen
-        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, margin, margin)
+        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, marginHori, marginVert)
     }
 
     /**
@@ -68,6 +78,4 @@ class PromotionWindow(private val activity: Activity) {
             popupWindow.dismiss()
         }
     }
-
-
 }
