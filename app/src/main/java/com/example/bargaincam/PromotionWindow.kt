@@ -44,7 +44,7 @@ class PromotionWindow(private val activity: Activity) {
         promotionText.text = "Promotion"
         endDateText.text = "End Date"
 
-        fun AisleChange(Aisle : String)
+        fun updateAisle(Aisle : String)
         {
             aisleNumText.text = "Aisle Num: $Aisle"
         }
