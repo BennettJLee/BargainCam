@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bargaincamprivate"
+    namespace = "com.example.bargaincam"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.example.bargaincamprivate"
+        applicationId = "com.example.bargaincam"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
@@ -60,6 +60,9 @@ dependencies {
     implementation("androidx.camera:camera-view:${cameraxVersion}")
     //implementation("androidx.camera:camera-mlkit-vision:${camerax_version}")
 
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
+
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     implementation("com.google.mlkit:text-recognition:16.0.0")
@@ -79,4 +82,11 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.compose.material:material:1.4.3")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
+
 }

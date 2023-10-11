@@ -1,4 +1,4 @@
-package com.example.bargaincamprivate
+package com.example.bargaincam
 
 import org.junit.Test
 

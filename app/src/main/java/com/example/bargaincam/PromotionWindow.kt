@@ -1,4 +1,4 @@
-package com.example.bargaincamprivate
+package com.example.bargaincam
 
 import android.app.Activity
 import android.view.Gravity
@@ -11,6 +11,13 @@ class PromotionWindow(private val activity: Activity) {
 
     private lateinit var popupWindow: PopupWindow
 
+    var Aisle : String = " "
+
+
+    fun updateAisle(Num : String)
+    {
+        Aisle = Num
+    }
     /**
      * This function displays the promotion pop-up window on the screen
      */
@@ -26,20 +33,24 @@ class PromotionWindow(private val activity: Activity) {
         )
 
         // Initialise the variables for the pop-up window
-        val marginHori = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_hori)
-        val marginVert = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_vert)
+        val margin = activity.resources.getDimensionPixelSize(R.dimen.popup_margin_vert)
         val aisleNumText = popupView.findViewById<TextView>(R.id.aisleNumText)
         val promotionText = popupView.findViewById<TextView>(R.id.promotionText)
         val endDateText = popupView.findViewById<TextView>(R.id.endDateText)
 
         // Set the variables for the pop-up window
         // ** EXTRACT: Extract data here **
-        aisleNumText.text = "Aisle Num"
+        aisleNumText.text = "Aisle Num: $Aisle"
         promotionText.text = "Promotion"
         endDateText.text = "End Date"
 
+        fun AisleChange(Aisle : String)
+        {
+            aisleNumText.text = "Aisle Num: $Aisle"
+        }
+
         // Show the pop-up window at the bottom right of the screen
-        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, marginHori, marginVert)
+        popupWindow.showAtLocation(activity.findViewById(android.R.id.content), Gravity.BOTTOM or Gravity.END, margin, margin)
     }
 
     /**
@@ -57,4 +68,6 @@ class PromotionWindow(private val activity: Activity) {
             popupWindow.dismiss()
         }
     }
+
+
 }
