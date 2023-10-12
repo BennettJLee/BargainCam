@@ -1,5 +1,6 @@
 package com.example.bargaincam
 
+import android.util.Log
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
@@ -8,10 +9,10 @@ import org.json.JSONException
 class PromotionJson {
 
     companion object {
-        val promotionList = mutableListOf<PromotionDataItem>()
+        private val promotionList = mutableListOf<PromotionDataItem>()
 
         @Throws(JSONException::class)
-        fun loadDataFromUrl(url: String, storeNum: Int){
+        fun loadDataFromUrl(url: String, storeNum: Int): List<PromotionDataItem>{
 
             //declare connection variables
             val client = OkHttpClient()
@@ -37,14 +38,14 @@ class PromotionJson {
                 val endDate = jsonObject.getString("promotionEndDate")
                 val count = jsonObject.getInt("promotionProductCount")
                 val locationString = jsonObject.getString("location")
-                val locations = parseLocation(locationString)
+                //val locations = parseLocation(locationString)
 
-                val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, locations.toString())
+                val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, locationString)
                 promotionList.add(promotionDataModel)
 
             }
-            purgeLocations(storeNum.toString())
-            return
+            //purgeLocations(storeNum.toString())
+            return promotionList
         }
 
         private fun parseLocation(locationString: String): List<Pair<Int, String>> {

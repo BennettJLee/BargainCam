@@ -1,5 +1,7 @@
 package com.example.bargaincam
 
+import android.util.Log
+import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -10,19 +12,28 @@ object PromotionData {
     private const val url = "https://raw.githubusercontent.com/BennettJLee/BargainCam/main/PromotionData.json"
     private lateinit var promotionList: List<PromotionDataItem>
 
+    @OptIn(DelicateCoroutinesApi::class)
     fun loadJsonData(storeNum: Int) {
         val promotionJson = PromotionJson
 
-        runBlocking{
-            launch(Dispatchers.IO) {
+        GlobalScope.launch(Dispatchers.IO) {
                 try {
                     promotionList = promotionJson.loadDataFromUrl(url, storeNum)
+
+                    if (promotionList.isEmpty()){
+                        Log.e("tag", "empty")
+                    }else{
+                        Log.e("tag", promotionList.size.toString())
+                    }
+                    for (promo in promotionList){
+                        Log.e("tag", promo.id)
+                    }
 
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }
             }
-        }
+
     }
 
     /**

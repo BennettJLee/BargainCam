@@ -10,6 +10,7 @@ import android.media.Image
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.util.Log
 import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
@@ -111,6 +112,7 @@ class MainActivity : ComponentActivity() {
         }
 
         storeFinder.loadJsonData()
+
         val storeNum = storeFinder.getCurrentStore(this)
         Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
 
