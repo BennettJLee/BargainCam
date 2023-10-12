@@ -62,7 +62,11 @@ class PromotionJson {
                 val locations = jsonObject.getString("location")
                 val location = filterLocation(locations) //filter the location
 
-                val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, location)
+                //split the location into store number and isle number
+                var locationSplit = location.split(",")
+                var locationPair = Pair(locationSplit[0], locationSplit[1])
+
+                val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, locationPair)
                 promotionList.add(promotionDataModel)
             }
         }

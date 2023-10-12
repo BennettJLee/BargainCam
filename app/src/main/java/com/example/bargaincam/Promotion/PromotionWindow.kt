@@ -54,7 +54,7 @@ class PromotionWindow(private val activity: Activity) {
         //for all items in the promotion list, check if the number that's been scanned exists
         for (item in promotionList) {
 
-            if(item.location.contains("Isle$aisleNum")) {
+            if(item.location.second.contains(aisleNum.toString())) {
 
                 aisleNumText.text = "Aisle $aisleNum"
                 promotionText.text = item.name

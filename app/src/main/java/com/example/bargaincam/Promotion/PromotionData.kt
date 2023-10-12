@@ -56,6 +56,6 @@ data class PromotionDataItem(
     val startDate : String,
     val endDate : String,
     val count : Int,
-    val location : String
+    val location : Pair<String,String>
 )
 

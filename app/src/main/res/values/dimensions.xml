@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="popup_margin_hori">20sp</dimen>
-    <dimen name="popup_margin_vert">40sp</dimen>
+    <dimen name="popup_margin_vert">60sp</dimen>
 </resources>
