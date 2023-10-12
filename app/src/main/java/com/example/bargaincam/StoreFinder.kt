@@ -71,9 +71,6 @@ object StoreFinder {
         //get the users current location
         val location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
 
-        val lat = location?.latitude
-        val lng = location?.longitude
-
         if (location != null) {
             storeNum = matchStoreLocation(location)
 
