@@ -95,9 +95,7 @@ class MainActivity : ComponentActivity() {
 
         //Initialise the store and promotion data
         storeFinder = StoreFinder
-        storeFinder.loadJsonData()
         promotionData = PromotionData
-        promotionData.loadJsonData(208) // StoreNum goes here after running the locationFinder
 
 
         // Check if the app already has permissions
@@ -112,13 +110,12 @@ class MainActivity : ComponentActivity() {
 
         }
 
-        runBlocking {
-            launch{
-                delay(5000)
-                val storeNum = storeFinder.getCurrentStore(this@MainActivity)
-                Toast.makeText(this@MainActivity, storeNum.toString(), Toast.LENGTH_LONG).show()
-            }
-        }
+        storeFinder.loadJsonData()
+        val storeNum = storeFinder.getCurrentStore(this)
+        Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
+
+        promotionData.loadJsonData(storeNum)
+
     }
 
     /**
