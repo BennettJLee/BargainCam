@@ -10,6 +10,7 @@ import android.provider.Settings
 import android.util.Log
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat.startActivity
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
@@ -64,8 +65,9 @@ object StoreFinder {
         //check that location permissions have been granted otherwise return
         if ((ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION)
                     != PackageManager.PERMISSION_GRANTED)){
-            Toast.makeText(context, "Function is only available with fine location permissions", Toast.LENGTH_LONG).show()
-            return storeNum
+            Toast.makeText(context, "This feature is only available with precise location permissions", Toast.LENGTH_LONG).show()
+            val intent = Intent(context, HomePageActivity::class.java)
+            context.startActivity(intent)
         }
 
         //get the users current location

@@ -1,44 +1,29 @@
 package com.example.bargaincam
 
-import android.R
-import android.R.attr.bitmap
-import android.annotation.SuppressLint
 import android.content.Context
 import android.content.pm.PackageManager
 import android.graphics.Color
 import android.media.Image
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.util.Log
-import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
-import android.widget.PopupWindow
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.OptIn
 import androidx.camera.core.AspectRatio
-import androidx.camera.core.CameraSelector
 import androidx.camera.core.ExperimentalGetImage
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
 import androidx.camera.view.CameraController
 import androidx.camera.view.LifecycleCameraController
 import androidx.camera.view.PreviewView
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Scaffold
-import androidx.compose.material.Text
-import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -48,7 +33,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
-import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
@@ -60,16 +44,14 @@ import com.google.mlkit.vision.text.TextRecognizer
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
 
-class MainActivity : ComponentActivity() {
+class CameraActivity : ComponentActivity() {
 
     private lateinit var viewBinding: ActivityMainBinding
 
@@ -92,30 +74,19 @@ class MainActivity : ComponentActivity() {
         // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
 
-
-
         //Initialise the store and promotion data
         storeFinder = StoreFinder
         promotionData = PromotionData
 
-
-        // Check if the app already has permissions
-        if (!hasPermissions(baseContext)) {
-            // if not, request permissions
-            activityResultLauncher.launch(REQUIRED_PERMISSIONS.toTypedArray())
-        } else {
-            // if so, display the camera preview to the screen
-            setContent {
-                CameraLaunch()
-            }
-
+        // if so, display the camera preview to the screen
+        setContent {
+            CameraLaunch()
         }
 
+        //Load the store data, find the current store and load the relevant promotion data
         storeFinder.loadJsonData()
-
         val storeNum = storeFinder.getCurrentStore(this)
         Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
-
         promotionData.loadJsonData(storeNum)
 
     }
@@ -219,47 +190,6 @@ class MainActivity : ComponentActivity() {
                 exception?.printStackTrace()
                 imageProxy.close()
             }
-        }
-    }
-
-
-
-    /**
-     * This function asks the user for their permissions
-     */
-    private val activityResultLauncher =
-        registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions())
-        { permissions ->
-            var permissionGranted = true
-            permissions.entries.forEach {
-                if (it.key in REQUIRED_PERMISSIONS && it.value == false)
-                    permissionGranted = false
-            }
-            // check if the permission has been granted
-            if (!permissionGranted) {
-                // If not, inform the user that this feature can't run without the permissions
-                Toast.makeText(this, "Both Camera and Location permissions are needed to use this feature.", Toast.LENGTH_LONG).show()
-            } else {
-                // If so, display the camera preview
-                setContent {
-                    CameraLaunch()
-                }
-
-            }
-        }
-
-    /**
-     * This object stores the permissions and has a function that checks permissions status
-     */
-    companion object {
-        private const val TAG = "BargainCamPrivate"
-        private val REQUIRED_PERMISSIONS =
-            mutableListOf(
-                android.Manifest.permission.CAMERA,
-                android.Manifest.permission.ACCESS_FINE_LOCATION
-            )
-        fun hasPermissions(context: Context) = REQUIRED_PERMISSIONS.all {
-            ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
         }
     }
 }
