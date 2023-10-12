@@ -65,6 +65,13 @@ dependencies {
 
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
+    implementation("androidx.lifecycle:lifecycle-viewmodel:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-runtime:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-common-java8:2.6.2")
+
     implementation("com.google.mlkit:text-recognition:16.0.0")
 
     implementation("androidx.core:core-ktx:1.9.0")

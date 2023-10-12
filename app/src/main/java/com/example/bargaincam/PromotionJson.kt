@@ -38,8 +38,8 @@ class PromotionJson {
                 val location = jsonObject.getString("location")
 
                 if(location.contains(storeNum.toString())) {
-                    val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, location)
-                    promotionList.add(promotionDataModel)
+                    val promotionDataItem = PromotionDataItem(id, name, legal, image, startDate, endDate, count, location)
+                    promotionList.add(promotionDataItem)
                 }
             }
 

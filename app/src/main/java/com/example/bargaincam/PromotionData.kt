@@ -3,6 +3,7 @@ package com.example.bargaincam
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 object PromotionData {
 
@@ -12,12 +13,14 @@ object PromotionData {
     fun loadJsonData(storeNum: Int) {
         val promotionJson = PromotionJson
 
-        GlobalScope.launch(Dispatchers.IO) {
-            try {
-                promotionList = promotionJson.loadDataFromUrl(url, storeNum)
+        runBlocking{
+            launch(Dispatchers.IO) {
+                try {
+                    promotionList = promotionJson.loadDataFromUrl(url, storeNum)
 
-            } catch (e: Exception) {
-                e.printStackTrace()
+                } catch (e: Exception) {
+                    e.printStackTrace()
+                }
             }
         }
     }

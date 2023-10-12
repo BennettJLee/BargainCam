@@ -59,9 +59,11 @@ import com.google.mlkit.vision.text.TextRecognizer
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
@@ -89,10 +91,11 @@ class MainActivity : ComponentActivity() {
         // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
 
+
+
+        //Initialise the store and promotion data
         storeFinder = StoreFinder
-
-
-        //Initialise the promotion data
+        storeFinder.loadJsonData()
         promotionData = PromotionData
         promotionData.loadJsonData(208) // StoreNum goes here after running the locationFinder
 
@@ -108,9 +111,14 @@ class MainActivity : ComponentActivity() {
             }
 
         }
-        val storeNum = storeFinder.getCurrentLocation(this)
 
-        Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
+        runBlocking {
+            launch{
+                delay(5000)
+                val storeNum = storeFinder.getCurrentStore(this@MainActivity)
+                Toast.makeText(this@MainActivity, storeNum.toString(), Toast.LENGTH_LONG).show()
+            }
+        }
     }
 
     /**
