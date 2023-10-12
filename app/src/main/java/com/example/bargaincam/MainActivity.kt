@@ -76,6 +76,8 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var promotionData: PromotionData
 
+    private lateinit var storeFinder: StoreFinder
+
     /**
      * This function is called when this activity is started
      */
@@ -86,6 +88,9 @@ class MainActivity : ComponentActivity() {
 
         // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
+
+        storeFinder = StoreFinder
+
 
         //Initialise the promotion data
         promotionData = PromotionData
@@ -103,6 +108,9 @@ class MainActivity : ComponentActivity() {
             }
 
         }
+        val storeNum = storeFinder.getCurrentLocation(this)
+
+        Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
     }
 
     /**
@@ -246,7 +254,7 @@ class MainActivity : ComponentActivity() {
         private val REQUIRED_PERMISSIONS =
             mutableListOf(
                 android.Manifest.permission.CAMERA,
-                android.Manifest.permission.ACCESS_COARSE_LOCATION
+                android.Manifest.permission.ACCESS_FINE_LOCATION
             )
         fun hasPermissions(context: Context) = REQUIRED_PERMISSIONS.all {
             ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
