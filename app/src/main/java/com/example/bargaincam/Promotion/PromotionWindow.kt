@@ -1,4 +1,4 @@
-package com.example.bargaincam
+package com.example.bargaincam.Promotion
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.PopupWindow
 import android.widget.TextView
+import com.example.bargaincam.R
 import com.squareup.picasso.Picasso
 
 class PromotionWindow(private val activity: Activity) {
@@ -18,6 +19,8 @@ class PromotionWindow(private val activity: Activity) {
 
     /**
      * This function displays the promotion pop-up window on the screen
+     *
+     * @param aisleNum The aisle number that has been scanned
      */
     @SuppressLint("SetTextI18n")
     fun showPromotionWindow(aisleNum: Int) {
@@ -44,13 +47,15 @@ class PromotionWindow(private val activity: Activity) {
         promotionText.text = "Promotion Not Found"
         endDateText.text = ""
 
+        //load the promotion data
         promotionData = PromotionData
+        val promotionList = promotionData.loadPromotionList()
 
-        var promotionList = promotionData.loadPromotionList()
-
+        //for all items in the promotion list, check if the number that's been scanned exists
         for (item in promotionList) {
 
             if(item.location.contains("Isle$aisleNum")) {
+
                 aisleNumText.text = "Aisle $aisleNum"
                 promotionText.text = item.name
                 endDateText.text = "Ends " + item.endDate
@@ -65,8 +70,11 @@ class PromotionWindow(private val activity: Activity) {
 
     /**
      * This function checks if the window is showing or initialized
+     *
+     * @return The boolean value of weather the popup window is showing
      */
     fun isShowing() : Boolean {
+
         return this::popupWindow.isInitialized && popupWindow.isShowing
     }
 
@@ -74,7 +82,9 @@ class PromotionWindow(private val activity: Activity) {
      * This function closes the promotion window
      */
     fun closePromotionWindow() {
+
         if (isShowing()) {
+
             popupWindow.dismiss()
         }
     }

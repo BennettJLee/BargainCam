@@ -6,31 +6,32 @@ import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.activity.compose.setContent
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.example.bargaincam.Camera.CameraActivity
 
 class HomePageActivity : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home_page)
-
         val bargainCamButton = findViewById<View>(R.id.bargainCamButton)
 
         bargainCamButton.setOnClickListener {
             // Create an intent to launch BargainCamActivity
 
             if (!HomePageActivity.hasPermissions(baseContext)) {
+
                 // if not, request permissions
                 activityResultLauncher.launch(HomePageActivity.REQUIRED_PERMISSIONS.toTypedArray())
             } else {
+
+                // is so, proceed to camera activity
                 val intent = Intent(this, CameraActivity::class.java)
                 startActivity(intent)
             }
-
         }
     }
 

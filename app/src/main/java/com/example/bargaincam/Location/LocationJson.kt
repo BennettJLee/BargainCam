@@ -1,4 +1,4 @@
-package com.example.bargaincam
+package com.example.bargaincam.Location
 
 import okhttp3.OkHttpClient
 import okhttp3.Request
@@ -8,6 +8,15 @@ import org.json.JSONException
 class LocationJson {
 
     companion object {
+
+        private val storeList = mutableListOf<StoreDataItem>()
+
+        /**
+         * This function loads the store data from a json file
+         *
+         * @param url The url for the data
+         * @return The list of store data
+         */
         @Throws(JSONException::class)
         fun loadDataFromUrl(url: String): List<StoreDataItem> {
 
@@ -23,10 +32,22 @@ class LocationJson {
 
             //load the json
             val jsonArray = JSONArray(jsonData)
-            val storeList = mutableListOf<StoreDataItem>()
+            parseLocationData(jsonArray)
+
+            return storeList
+
+        }
+
+        /**
+         * This function parses the json data into a list
+         *
+         * @param jsonArray The JSON data array
+         */
+        private fun parseLocationData(jsonArray: JSONArray){
 
             //for all objects in the json Array,
             for (i in 0 until jsonArray.length()) {
+
                 val jsonObject = jsonArray.getJSONObject(i)
                 val id = jsonObject.getInt("@store-id")
                 val name = jsonObject.getString("name")
@@ -35,11 +56,7 @@ class LocationJson {
 
                 val storeDataItem = StoreDataItem(id, name, lat, lng)
                 storeList.add(storeDataItem)
-
             }
-
-            return storeList
         }
     }
-
 }

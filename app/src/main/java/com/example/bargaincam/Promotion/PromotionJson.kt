@@ -1,6 +1,5 @@
-package com.example.bargaincam
+package com.example.bargaincam.Promotion
 
-import android.util.Log
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
@@ -13,10 +12,17 @@ class PromotionJson {
         private val promotionList = mutableListOf<PromotionDataItem>()
         private var storeNum: Int = -1
 
+        /**
+         * This function loads the promotion data from a json file
+         *
+         * @param url The url for the data
+         * @param storeNum The store the user is currently located
+         * @return The list of promotion data
+         */
         @Throws(JSONException::class)
         fun loadDataFromUrl(url: String, storeNum: Int): List<PromotionDataItem>{
 
-            this.storeNum = storeNum
+            Companion.storeNum = storeNum
 
             //declare connection variables
             val client = OkHttpClient()
@@ -30,15 +36,21 @@ class PromotionJson {
 
             //load the json
             val jsonArray = JSONArray(jsonData)
-
             parsePromotionData(jsonArray)
 
             return promotionList
         }
 
+        /**
+         * This function parses the json data into a list
+         *
+         * @param jsonArray The JSON data array
+         */
         private fun parsePromotionData(jsonArray: JSONArray){
+
             //for all objects in the json Array
             for (i in 0 until jsonArray.length()) {
+
                 val jsonObject = jsonArray.getJSONObject(i)
                 val id = jsonObject.getString("promotionId")
                 val name = jsonObject.getString("promotionName")
@@ -48,15 +60,22 @@ class PromotionJson {
                 val endDate = jsonObject.getString("promotionEndDate")
                 val count = jsonObject.getInt("promotionProductCount")
                 val locations = jsonObject.getString("location")
-                val location = filterLocation(locations)
+                val location = filterLocation(locations) //filter the location
 
                 val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, location)
                 promotionList.add(promotionDataModel)
-
             }
         }
 
+        /**
+         * This function filters the location so only data relevant to current location is present
+         *
+         * @param location The location string to be filtered
+         * @return Return the filtered location
+         */
         private fun filterLocation(location:String): String{
+
+            //split the locations and initialise the StringBuilder
             val splitLocation = location.split("\n")
             val filteredLocation = StringBuilder()
 

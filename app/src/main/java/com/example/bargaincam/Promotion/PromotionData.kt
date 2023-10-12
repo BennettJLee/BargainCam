@@ -1,34 +1,34 @@
-package com.example.bargaincam
+package com.example.bargaincam.Promotion
 
-import android.util.Log
 import kotlinx.coroutines.DelicateCoroutinesApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 
 object PromotionData {
 
     private const val url = "https://raw.githubusercontent.com/BennettJLee/BargainCam/main/PromotionData.json"
     private lateinit var promotionList: List<PromotionDataItem>
 
+    /**
+     * This function loads the promotion data into a list
+     *
+     * @param storeNum The current store the user is located
+     */
     @OptIn(DelicateCoroutinesApi::class)
     fun loadJsonData(storeNum: Int) {
+
         val promotionJson = PromotionJson
 
         GlobalScope.launch(Dispatchers.IO) {
-                try {
-                    promotionList = promotionJson.loadDataFromUrl(url, storeNum)
 
-                    for (promo in promotionList){
-                        Log.e("tag", promo.location)
-                    }
+            try {
+                promotionList = PromotionJson.loadDataFromUrl(url, storeNum)
 
-                } catch (e: Exception) {
-                    e.printStackTrace()
-                }
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
-
+        }
     }
 
     /**
@@ -37,10 +37,14 @@ object PromotionData {
      * @return returns the promotion list
      */
     fun loadPromotionList() : List<PromotionDataItem> {
-        if(::promotionList.isInitialized){
+
+        if(PromotionData::promotionList.isInitialized){
             return promotionList
+
         }
+
         return emptyList()
+
     }
 }
 

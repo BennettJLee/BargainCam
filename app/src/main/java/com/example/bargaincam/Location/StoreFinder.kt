@@ -1,4 +1,4 @@
-package com.example.bargaincam
+package com.example.bargaincam.Location
 
 import android.Manifest
 import android.content.Context
@@ -7,12 +7,10 @@ import android.content.pm.PackageManager
 import android.location.Location
 import android.location.LocationManager
 import android.provider.Settings
-import android.util.Log
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat.startActivity
+import com.example.bargaincam.HomePageActivity
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlin.math.pow
@@ -27,6 +25,7 @@ object StoreFinder {
      * This function loads the store data from a json file
      */
     fun loadJsonData() {
+
         val locationData = LocationJson
 
         runBlocking {
@@ -75,7 +74,6 @@ object StoreFinder {
 
         if (location != null) {
             storeNum = matchStoreLocation(location)
-
         }
 
         return storeNum

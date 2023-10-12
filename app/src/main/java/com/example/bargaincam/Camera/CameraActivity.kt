@@ -1,7 +1,6 @@
-package com.example.bargaincam
+package com.example.bargaincam.Camera
 
 import android.content.Context
-import android.content.pm.PackageManager
 import android.graphics.Color
 import android.media.Image
 import android.os.Bundle
@@ -10,7 +9,6 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.OptIn
 import androidx.camera.core.AspectRatio
 import androidx.camera.core.ExperimentalGetImage
@@ -36,6 +34,9 @@ import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.LifecycleOwner
+import com.example.bargaincam.Location.StoreFinder
+import com.example.bargaincam.Promotion.PromotionData
+import com.example.bargaincam.Promotion.PromotionWindow
 import com.example.bargaincam.databinding.ActivityMainBinding
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.Text
