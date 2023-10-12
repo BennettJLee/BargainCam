@@ -8,10 +8,10 @@ import org.json.JSONException
 class PromotionJson {
 
     companion object {
-        private val promotionList = mutableListOf<PromotionDataItem>()
+        val promotionList = mutableListOf<PromotionDataItem>()
 
         @Throws(JSONException::class)
-        fun loadDataFromUrl(url: String, storeNum: Int): List<PromotionDataItem> {
+        fun loadDataFromUrl(url: String, storeNum: Int){
 
             //declare connection variables
             val client = OkHttpClient()
@@ -41,9 +41,10 @@ class PromotionJson {
 
                 val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, locations.toString())
                 promotionList.add(promotionDataModel)
-            }
 
-            return promotionList
+            }
+            purgeLocations(storeNum.toString())
+            return
         }
 
         private fun parseLocation(locationString: String): List<Pair<Int, String>> {
