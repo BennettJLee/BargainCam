@@ -124,14 +124,6 @@ class MainActivity : ComponentActivity() {
     /**
      * This function starts the Camera Preview
      */
-//    private fun startCamera() {
-//        val previewView: PreviewView = viewBinding.viewFinder
-//        cameraController = LifecycleCameraController(baseContext)
-//        cameraController.bindToLifecycle(this)
-//        cameraController.cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
-//        previewView.controller = cameraController
-//    }
-
     @Composable
     private fun CameraLaunch() {
 
@@ -146,8 +138,8 @@ class MainActivity : ComponentActivity() {
         fun onTextUpdated(updatedText: String) {
             numText = updatedText.filter { it.isDigit() }
             detectedText = numText
-            var TextLength : Int = detectedText.length
-            if(TextLength >= 1 && TextLength <= 2 ){
+            val textLength : Int = detectedText.length
+            if(textLength in 1..2){
                 aisleNum = Integer.parseInt(detectedText)
                 if(lastAisleNum == -1 || lastAisleNum != aisleNum){
                     lastAisleNum = aisleNum
