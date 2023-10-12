@@ -8,6 +8,7 @@ import android.location.Location
 import android.location.LocationManager
 import android.provider.Settings
 import android.util.Log
+import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
@@ -63,22 +64,19 @@ object StoreFinder {
         //check that location permissions have been granted otherwise return
         if ((ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION)
                     != PackageManager.PERMISSION_GRANTED)){
+            Toast.makeText(context, "Function is only available with fine location permissions", Toast.LENGTH_LONG).show()
             return storeNum
         }
 
         //get the users current location
         val location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
-        locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
 
         val lat = location?.latitude
         val lng = location?.longitude
 
-        Log.e("Tag", lat.toString() + lng.toString())
         if (location != null) {
             storeNum = matchStoreLocation(location)
 
-        } else{
-            //storeNum = matchStoreLocation(-37.79, 176.1152)
         }
 
         return storeNum
@@ -87,7 +85,7 @@ object StoreFinder {
     /**
      * This function compares the user's location to the store location and returns the closet one.
      *
-     * @param location The current location of the user
+     * @param userLocation The current location of the user
      * @return The closet store to the user
      */
     private fun matchStoreLocation(userLocation: Location): Int {
@@ -111,34 +109,6 @@ object StoreFinder {
             if (minDistance == -1.0 || distance < minDistance) {
                 minDistance = distance
                 closetStore = store.id
-            }
-        }
-
-
-        return closetStore
-    }
-
-    private fun matchStoreLocation(userLat: Double, userLng: Double): Int {
-
-        var minDistance = -1.0
-        var closetStore = -1
-
-        for (store in storeList) {
-            Log.e("tag", store.id.toString())
-        }
-        //for each store in the store data check for the closest store to the user
-        for (store in storeList) {
-
-            //get store variables and calculate distance from user
-            val storeLat = store.lat
-            val storeLng = store.lng
-            val distance = calculateDistance(userLat, userLng, storeLat, storeLng)
-
-            //if current store distance is shorter than min then insert unless it is the first.
-            if (minDistance == -1.0 || distance < minDistance) {
-                minDistance = distance
-                closetStore = store.id
-                Log.e("tag", "inside " + store.name)
             }
         }
 
