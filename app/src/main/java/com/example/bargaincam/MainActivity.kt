@@ -146,11 +146,14 @@ class MainActivity : ComponentActivity() {
         fun onTextUpdated(updatedText: String) {
             numText = updatedText.filter { it.isDigit() }
             detectedText = numText
-            aisleNum = Integer.parseInt(detectedText)
-            if(lastAisleNum == -1 || lastAisleNum != aisleNum){
-                lastAisleNum = aisleNum
-                promotionWindow.closePromotionWindow()
-                promotionWindow.showPromotionWindow(aisleNum)
+            var TextLength : Int = detectedText.length
+            if(TextLength >= 1 && TextLength <= 2 ){
+                aisleNum = Integer.parseInt(detectedText)
+                if(lastAisleNum == -1 || lastAisleNum != aisleNum){
+                    lastAisleNum = aisleNum
+                    promotionWindow.closePromotionWindow()
+                    promotionWindow.showPromotionWindow(aisleNum)
+                }
             }
         }
 
