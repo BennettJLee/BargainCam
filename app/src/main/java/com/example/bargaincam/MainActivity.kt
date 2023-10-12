@@ -132,6 +132,7 @@ class MainActivity : ComponentActivity() {
             detectedText = numText
             aisleNum = Integer.parseInt(detectedText)
             if(lastAisleNum == -1 || lastAisleNum != aisleNum){
+                lastAisleNum = aisleNum
                 promotionWindow.closePromotionWindow()
                 promotionWindow.showPromotionWindow(aisleNum)
             }
