@@ -8,6 +8,8 @@ import org.json.JSONException
 class PromotionJson {
 
     companion object {
+        private val promotionList = mutableListOf<PromotionDataItem>()
+
         @Throws(JSONException::class)
         fun loadDataFromUrl(url: String, storeNum: Int): List<PromotionDataItem> {
 
@@ -23,7 +25,6 @@ class PromotionJson {
 
             //load the json
             val jsonArray = JSONArray(jsonData)
-            val promotionList = mutableListOf<PromotionDataItem>()
 
             //for all objects in the json Array,
             for (i in 0 until jsonArray.length()) {
@@ -35,28 +36,44 @@ class PromotionJson {
                 val startDate = jsonObject.getString("promotionStartDate")
                 val endDate = jsonObject.getString("promotionEndDate")
                 val count = jsonObject.getInt("promotionProductCount")
-                val location = jsonObject.getString("location")
+                val locationString = jsonObject.getString("location")
+                val locations = parseLocation(locationString)
 
-                if(location.contains(storeNum.toString())) {
-                    val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, location)
-                    promotionList.add(promotionDataModel)
-                }
+                val promotionDataModel = PromotionDataItem(id, name, legal, image, startDate, endDate, count, locations.toString())
+                promotionList.add(promotionDataModel)
             }
 
             return promotionList
         }
 
+        private fun parseLocation(locationString: String): List<Pair<Int, String>> {
+            val locationPattern = "\\((\\d+),(\\w+)\\)".toRegex()
+            return locationPattern.findAll(locationString).map { matchResult ->
+                val storeId = matchResult.groupValues[1].toInt()
+                val aisle = matchResult.groupValues[2]
+                Pair(storeId, aisle)
+            }.toList()
+        }
+
+        private fun purgeLocations(storeNumber: String) {
+            for (promotion in promotionList) {
+                val tempStore = promotion.location
+                if (!tempStore.contains(storeNumber)) {
+                    promotionList.remove(promotion)
+                }
+            }
+        }
+
         private fun findPromotions(
-            aisleNumber: String,
-            promotions: List<PromotionDataItem>): List<String> {
+            aisleNumber: String, storeNumber: String): List<PromotionDataItem> {
             val matchingPromotionIds = mutableListOf<String>()
-            for (promotion in promotions) {
+            for (promotion in promotionList) {
                 val tempAisle = promotion.location
-                if (tempAisle.contains("aisle" + aisleNumber)) {
+                if (tempAisle.contains(storeNumber + "Isle" + aisleNumber)) {
                     matchingPromotionIds.add(promotion.id)
                 }
             }
-            return matchingPromotionIds
+            return promotionList
         }
     }
 }
