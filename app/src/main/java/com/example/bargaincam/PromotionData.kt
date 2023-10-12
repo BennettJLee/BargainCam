@@ -20,13 +20,8 @@ object PromotionData {
                 try {
                     promotionList = promotionJson.loadDataFromUrl(url, storeNum)
 
-                    if (promotionList.isEmpty()){
-                        Log.e("tag", "empty")
-                    }else{
-                        Log.e("tag", promotionList.size.toString())
-                    }
                     for (promo in promotionList){
-                        Log.e("tag", promo.id)
+                        Log.e("tag", promo.location)
                     }
 
                 } catch (e: Exception) {
@@ -37,7 +32,9 @@ object PromotionData {
     }
 
     /**
-     * This function will load the Promotion List into a list if the promotionlist has been initialised
+     * This function will load the Promotion List into a list if the promotion list has been initialised
+     *
+     * @return returns the promotion list
      */
     fun loadPromotionList() : List<PromotionDataItem> {
         if(::promotionList.isInitialized){
