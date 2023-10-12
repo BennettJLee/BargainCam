@@ -1,0 +1,4752 @@
+[
+  {
+    "@store-id": "131",
+    "name": "Petone",
+    "address1": "14 Annie Huggan Grove",
+    "address2": "Petone",
+    "city": "Lower Hutt",
+    "postal-code": "5012",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.petone@thewarehouse.co.nz",
+    "phone": "04 576 9240",
+    "latitude": "-41.224552",
+    "longitude": "174.870397",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJdegfqJOrOG0RBylJ9K4lxy8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Petone. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Petone"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "petone"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "158",
+    "name": "Feilding",
+    "address1": "101 Kimbolton Road",
+    "address2": "Feilding",
+    "city": "Feilding",
+    "postal-code": "4702",
+    "state-code": "NZ-MWT",
+    "country-code": "NZ",
+    "email": "stockroom.feilding@thewarehouse.co.nz",
+    "phone": "06 323 0444",
+    "latitude": "-40.224774",
+    "longitude": "175.569589",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ6VjpF2c1QG0RhzABtVLo5n0"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Feilding. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Feilding"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "feilding"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "186",
+    "name": "Sylvia Park",
+    "address1": "286 Mount Wellington Highway",
+    "address2": "Mount Wellington",
+    "city": "Auckland",
+    "postal-code": "1060",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "STOCKROOM.SYLVIAPARK@thewarehouse.co.nz",
+    "phone": "09 985 0510",
+    "latitude": "-36.918468",
+    "longitude": "174.841791",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJQ167Rk9JDW0RZx3PciUH3GE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Sylvia Park. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Sylvia Park"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "sylviapark"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Sylvia Park"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "128",
+    "name": "Hornby",
+    "address1": "45 Chalmers Street",
+    "address2": "Hornby",
+    "city": "Christchurch",
+    "postal-code": "8042",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.hornby@thewarehouse.co.nz",
+    "phone": "03 349 5389",
+    "latitude": "-43.541445",
+    "longitude": "172.524243",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJe-Yb2371MW0Rdrgcny_ThrE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Hornby. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Hornby"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hornby"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse The Hub"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "222",
+    "name": "Tauranga Crossing",
+    "address1": "2 Taurikura Drive",
+    "address2": "Tauriko",
+    "city": "Tauranga",
+    "postal-code": "3110",
+    "state-code": "NZ-BOP",
+    "country-code": "NZ",
+    "email": "stockroom.taurangacrossing@thewarehouse.co.nz",
+    "phone": "07 925 0058",
+    "latitude": "-37.737781",
+    "longitude": "176.104872",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "displayAddress",
+          "#text": "The Warehouse Tauranga Crossing Shopping Mall\n2 Taurikura Drive\nTauriko\n3110, Tauranga"
+        },
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJa9PCJqbabW0RvaMKVGHFYN4"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Tauranga Crossing. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Tauranga Crossing"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "taurangacrossing"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Tauranga Crossing SM"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "135",
+    "name": "Paraparaumu",
+    "address1": "6 Ihakara Street",
+    "address2": "Paraparaumu",
+    "city": "Paraparaumu",
+    "postal-code": "5032",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.paraparaumu@thewarehouse.co.nz",
+    "phone": "04 298 2056",
+    "latitude": "-40.919271",
+    "longitude": "175.003639",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJaQd5okehQG0RrqJk5zQ2UYk"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Paraparaumu. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Paraparaumu"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "paraparaumu"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Coastlands Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "119",
+    "name": "Albany",
+    "address1": "140 Don McKinnon Drive",
+    "address2": "Albany",
+    "city": "Auckland",
+    "postal-code": "0632",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.albany@thewarehouse.co.nz",
+    "phone": "09 415 2225",
+    "latitude": "-36.730182",
+    "longitude": "174.704447",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJoWixvuw7DW0RTl_xwzBSXsU"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Albany. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Albany"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "albany"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Albany Mega Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "171",
+    "name": "Invercargill",
+    "address1": "70 Leven Street",
+    "address2": "Invercargill",
+    "city": "Invercargill",
+    "postal-code": "9810",
+    "state-code": "NZ-STL",
+    "country-code": "NZ",
+    "email": "stockroom.invercargill@thewarehouse.co.nz",
+    "phone": "03 214 9970",
+    "latitude": "-46.408382",
+    "longitude": "168.345289",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJCwa0vZ7E0qkRHe6nDJBRXkw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Invercargill. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Invercargill"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "invercargill"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "170",
+    "name": "Lyall Bay",
+    "address1": "10 George Bolt Street",
+    "address2": "Rongotai",
+    "city": "Wellington",
+    "postal-code": "6022",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.Lyallbay@thewarehouse.co.nz",
+    "phone": "04 387 4260",
+    "latitude": "-41.326667",
+    "longitude": "174.803329",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "displayAddress",
+          "#text": "The Warehouse Wellington Airport Retail Park\n10 George Bolt Street\nRongotai\n6022, Wellington"
+        },
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJo4BgO2OlOG0RpmCr5T-Uv7s"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Lyall Bay. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Lyall Bay"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "lyallbay"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Wellington Airport Retail"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "107",
+    "name": "New Lynn",
+    "address1": "13 Rata Street",
+    "address2": "New Lynn",
+    "city": "Auckland",
+    "postal-code": "0600",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.newlynn@thewarehouse.co.nz",
+    "phone": "09 827 6939",
+    "latitude": "-36.907842",
+    "longitude": "174.678762",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJI4pK2cFUFG0RuEL2i5EoxqY"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in New Lynn. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse New Lynn"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "newlynn"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "123",
+    "name": "Linwood - Eastgate",
+    "address1": "20 Buckleys Road",
+    "address2": "Linwood",
+    "city": "Christchurch",
+    "postal-code": "8062",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.eastgate@thewarehouse.co.nz",
+    "phone": "03 389 2004",
+    "latitude": "-43.532303",
+    "longitude": "172.676604",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ6Tj2vb6JMW0Rqc7HWeuPWwA"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Eastgate. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Eastgate"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "linwood-eastgate"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Eastgate Mall"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "136",
+    "name": "Masterton",
+    "address1": "370 Queen Street",
+    "address2": "Masterton",
+    "city": "Masterton",
+    "postal-code": "5810",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.masterton@thewarehouse.co.nz",
+    "phone": "06 377 0485",
+    "latitude": "-40.954178",
+    "longitude": "175.652679",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ-cxrdC0hQW0RHW7F4wt40y8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Masterton. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Masterton"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "masterton"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "146",
+    "name": "Palmerston North",
+    "address1": "171 Church Street",
+    "address2": "West End",
+    "city": "Palmerston North",
+    "postal-code": "4412",
+    "state-code": "NZ-MWT",
+    "country-code": "NZ",
+    "email": "stockroom.palmerstonnth@thewarehouse.co.nz",
+    "phone": "06 356 7134",
+    "image": "Instax-BF-21-180x180.jpg",
+    "latitude": "-40.361716",
+    "longitude": "175.600599",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ70k2GH81QG0RfDBO3oAeeq4"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Palmerston North. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Palmerston North"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "palmerstonnorth"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "116",
+    "name": "Whangarei",
+    "address1": "42 Port Road",
+    "address2": "Whangarei",
+    "city": "Whangarei",
+    "postal-code": "0110",
+    "state-code": "NZ-NTL",
+    "country-code": "NZ",
+    "email": "stockroom.whangarei@thewarehouse.co.nz",
+    "phone": "(09) 438 0346",
+    "latitude": "-35.731184",
+    "longitude": "174.331142",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJlRLSm_F-C20RgRzWns44wCk"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Whangarei. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Whangarei"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "whangarei"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Okara Park Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "103",
+    "name": "Henderson West City",
+    "address1": "30 Railside Avenue",
+    "address2": "Henderson",
+    "city": "Auckland",
+    "postal-code": "0612",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.westcity@thewarehouse.co.nz",
+    "phone": "09 836 3892",
+    "latitude": "-36.881695",
+    "longitude": "174.631551",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJs0q6R7dBDW0RNL7tW2W3VX8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in WestCity Henderson. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse WestCity Henderson"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hendersonwestcity"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse West City Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "405",
+    "name": "Manukau",
+    "address1": "54 Cavendish Drive",
+    "address2": "Manukau",
+    "city": "Auckland",
+    "postal-code": "2104",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.manukau@thewarehouse.co.nz",
+    "phone": "09 262 1187",
+    "latitude": "-36.989307",
+    "longitude": "174.874995",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ37_jk7hNDW0RqEZNKYiZjRw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Manukau. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Manukau"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "manukau"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "204",
+    "name": "Kaikohe",
+    "address1": "17 Station Road",
+    "address2": "Kaikohe",
+    "city": "Kaikohe",
+    "postal-code": "0405",
+    "state-code": "NZ-NTL",
+    "country-code": "NZ",
+    "email": "stockroom.kaikohe@thewarehouse.co.nz",
+    "phone": "09 405 2507",
+    "latitude": "-35.410495",
+    "longitude": "173.79835",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJQ2tfmynoC20R3b-EuOWBMDY"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Kaikohe. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Kaikohe"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "kaikohe"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "149",
+    "name": "Thames",
+    "address1": "100 Mary Street",
+    "address2": "Thames",
+    "city": "Thames",
+    "postal-code": "3500",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.thames@thewarehouse.co.nz",
+    "phone": "07 868 9666",
+    "latitude": "-37.13921",
+    "longitude": "175.540715",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJo7hPN0iBcm0RFIpdxa49IxI"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Thames. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Thames"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "thames"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Goldfields Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "211",
+    "name": "Richmond",
+    "address1": "186 Queen Street",
+    "address2": "Richmond",
+    "city": "Nelson",
+    "postal-code": "7020",
+    "state-code": "NZ-TAS",
+    "country-code": "NZ",
+    "email": "stockroom.richmond@thewarehouse.co.nz",
+    "phone": "03 970 2945",
+    "latitude": "-41.341204",
+    "longitude": "173.186886",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJoyD5ckCUO20RUwLqzVuVufI"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Richmond. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Richmond"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "richmond"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Upper Queen"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "190",
+    "name": "Mt Wellington Lunn Ave",
+    "address1": "101 Lunn Ave",
+    "address2": "Mount Wellington",
+    "city": "Auckland",
+    "postal-code": "1072",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.lunnave@thewarehouse.co.nz",
+    "phone": "09 217 7661",
+    "latitude": "-36.88821",
+    "longitude": "174.832757",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJVw-T2h1JDW0RTviPGCD5V5g"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Cambridge. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Lunn Ave"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "mtwellingtonlunnave"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Stoneridge on Lunn"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "143",
+    "name": "Tauranga Cameron Rd",
+    "address1": "483 Cameron Road",
+    "address2": "Tauranga",
+    "city": "Tauranga",
+    "postal-code": "3110",
+    "state-code": "NZ-BOP",
+    "country-code": "NZ",
+    "email": "stockroom.tauranga@thewarehouse.co.nz",
+    "phone": "07 578 6873",
+    "latitude": "-37.69648",
+    "longitude": "176.160175",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJwXvM087bbW0Rd2c_gJo1Pss"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Tauranga. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Tauranga"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "taurangacameronrd"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "147",
+    "name": "Tokoroa",
+    "address1": "8 Torphin Crescent",
+    "address2": "Tokoroa",
+    "city": "Tokoroa",
+    "postal-code": "3420",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.tokoroa@thewarehouse.co.nz",
+    "phone": "07 886 9865",
+    "latitude": "-38.219913",
+    "longitude": "175.873548",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJKVoPorhBbG0RcO1Vi8i1MUQ"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Tokoroa. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Tokoroa"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "tokoroa"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "154",
+    "name": "Matamata",
+    "address1": "41C Waharoa Road East",
+    "address2": "Matamata",
+    "city": "Matamata",
+    "postal-code": "3400",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.matamata@thewarehouse.co.nz",
+    "phone": "07 888 4469",
+    "latitude": "-37.804299",
+    "longitude": "175.770763",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ90FqmeOxbW0R3zNZ6_KX8Vk"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Matamata. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Matamata"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "matamata"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "148",
+    "name": "Taupo",
+    "address1": "11 Taniwha Street",
+    "address2": "Taupo",
+    "city": "Taupo",
+    "postal-code": "3330",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.taupo@thewarehouse.co.nz",
+    "phone": "07 377 0630",
+    "latitude": "-38.684574",
+    "longitude": "176.074952",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJyYg987jwa20RUeGJ9aCIHQ8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Taupo. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Taupo"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "taupo"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "125",
+    "name": "Oamaru",
+    "address1": "27 Eden Street",
+    "address2": "Oamaru",
+    "city": "Oamaru",
+    "postal-code": "9400",
+    "state-code": "NZ-OTA",
+    "country-code": "NZ",
+    "email": "stockroom.oamaru@thewarehouse.co.nz",
+    "phone": "03 434 9434",
+    "latitude": "-45.096284",
+    "longitude": "170.969521",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ2QSKXNeZKagRsgPZdrDM7e8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Oamaru. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Oamaru"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "oamaru"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "157",
+    "name": "Morrinsville",
+    "address1": "47 Studholme Street",
+    "address2": "Morrinsville",
+    "city": "Morrinsville",
+    "postal-code": "3300",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.morrinsville@thewarehouse.co.nz",
+    "phone": "07 889 0555",
+    "latitude": "-37.657566",
+    "longitude": "175.526784",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJS7qYB0kJbW0Rtnnm5D-AoOw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Morrinsville. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Morrinsville"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "morrinsville"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "201",
+    "name": "Milford",
+    "address1": "143 Kitchener Road",
+    "address2": "Milford",
+    "city": "Auckland",
+    "postal-code": "0620",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.milford@thewarehouse.co.nz",
+    "phone": "09 489 3790",
+    "latitude": "-36.771011",
+    "longitude": "174.764953",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJjToE3eY5DW0RXCgaEDGI_hM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Milford. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Milford"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "milford"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Milford Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "114",
+    "name": "Pakuranga",
+    "address1": "1 Aylesbury Street",
+    "address2": "Pakuranga",
+    "city": "Auckland",
+    "postal-code": "2010",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.pakuranga@thewarehouse.co.nz",
+    "phone": "09 572 0170",
+    "latitude": "-36.913486",
+    "longitude": "174.871761",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJlRR-se5LDW0RQxSv-d_WyOI"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Pakuranga. Get more store information at  thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Pakuranga"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "pakuranga"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Pakuranga Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "169",
+    "name": "Waipapa",
+    "address1": "8 Klinac Lane",
+    "address2": "Waipapa",
+    "city": "Waipapa",
+    "postal-code": "0230",
+    "state-code": "NZ-NTL",
+    "country-code": "NZ",
+    "email": "stockroom.kerikeri@thewarehouse.co.nz",
+    "phone": "09 401 7430",
+    "latitude": "-35.210414",
+    "longitude": "173.919216",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJae7TgjzIC20Rk6yabRBQlJs"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Waipapa. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Waipapa"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "waipapa"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "152",
+    "name": "Napier",
+    "address1": "319 Hastings Street",
+    "address2": "Napier South",
+    "city": "Napier",
+    "postal-code": "4110",
+    "state-code": "NZ-HKB",
+    "country-code": "NZ",
+    "email": "stockroom.napier@thewarehouse.co.nz",
+    "phone": "06 835 2433",
+    "latitude": "-39.495187",
+    "longitude": "176.917768",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJreqChtxMaG0R7Fsr1LKUbNg"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Napier. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Napier"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "napier"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "202",
+    "name": "Botany Downs",
+    "address1": "501 Ti Rakau Drive",
+    "address2": "Northpark",
+    "city": "Auckland",
+    "postal-code": "2013",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.botany@thewarehouse.co.nz",
+    "phone": "09 273 1597",
+    "latitude": "-36.930496",
+    "longitude": "174.91457",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJy8aV8H5LDW0R4zGPFYecjk4"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Botany Downs. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Botany Downs"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "botanydowns"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Botany Town Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "189",
+    "name": "Whitianga",
+    "address1": "24 Joan Gaskell Drive",
+    "address2": "Whitianga",
+    "city": "Whitianga",
+    "postal-code": "3510",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "StockroomWhitianga@thewarehouse.co.nz",
+    "phone": "07 867 1978",
+    "latitude": "-36.834486",
+    "longitude": "175.69712",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ9Xbtv8xdcm0RznMp9JUzwVo"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Whitianga. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Whitianga"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "whitianga"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "156",
+    "name": "Papamoa",
+    "address1": "7 Gravatt Road",
+    "address2": "Papamoa Beach",
+    "city": "Papamoa",
+    "postal-code": "3118",
+    "state-code": "NZ-BOP",
+    "country-code": "NZ",
+    "email": "stockroom.papamoa@thewarehouse.co.nz",
+    "phone": "07 572 0052",
+    "latitude": "-37.698683",
+    "longitude": "176.282998",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ65vxyU12bm0Re5HcUEt4E0E"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Papamoa. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Papamoa"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "papamoa"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Papamoa Plaza"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "196",
+    "name": "Warkworth",
+    "address1": "68 Woodcocks Road",
+    "address2": "Warkworth",
+    "city": "Warkworth",
+    "postal-code": "0910",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.warkworth@thewarehouse.co.nz",
+    "phone": "09 955 7094",
+    "latitude": "-36.406884",
+    "longitude": "174.648986",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJQ46aGFHfDG0Rx5sy5VHvst0"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Warkworth. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Warkworth"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "warkworth"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "Kowhai Falls"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "139",
+    "name": "Lower Hutt",
+    "address1": "55 Knights Road",
+    "address2": "Hutt Central",
+    "city": "Lower Hutt",
+    "postal-code": "5010",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.lowerhutt@thewarehouse.co.nz",
+    "phone": "04 566 5466",
+    "latitude": "-41.210767",
+    "longitude": "174.906324",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJFTFXaVaqOG0Rs8j1wVjS3RE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Lower Hutt. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Lower Hutt"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "lowerhutt"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Queensgate Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "122",
+    "name": "Rolleston",
+    "address1": "5 Masefield Drive",
+    "address2": "Rolleston",
+    "city": "Rolleston",
+    "postal-code": "7614",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "Stockroom.Rolleston@thewarehouse.co.nz",
+    "phone": "03 347 3506",
+    "latitude": "-43.594633",
+    "longitude": "172.388833",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJgSAliEoDMm0RCNeLMnCWElg"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Rolleston. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Rolleston"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "rolleston"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Rolleston Square"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "174",
+    "name": "Greymouth",
+    "address1": "174 Mawhera Quay",
+    "address2": "Greymouth",
+    "city": "Greymouth",
+    "postal-code": "7805",
+    "state-code": "NZ-WTC",
+    "country-code": "NZ",
+    "email": "Stockroom.Greymouth@thewarehouse.co.nz",
+    "phone": "03 768 9051",
+    "latitude": "-42.44838",
+    "longitude": "171.215322",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJZUv5nX1pL20Ru6vG6wddgyw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Greymouth. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Greymouth"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "greymouth"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "184",
+    "name": "Balclutha",
+    "address1": "23 Charlotte Street",
+    "address2": "Balclutha",
+    "city": "Balclutha",
+    "postal-code": "9230",
+    "state-code": "NZ-OTA",
+    "country-code": "NZ",
+    "email": "stockroom.balclutha@thewarehouse.co.nz",
+    "phone": "03 418 2361",
+    "latitude": "-46.237297",
+    "longitude": "169.738056",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ44Y7RK9PLKgRup8QN-D3t6M"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Balclutha. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Balclutha"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "balclutha"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "220",
+    "name": "Riccarton",
+    "address1": "265 Blenheim Road",
+    "address2": "Upper Riccarton",
+    "city": "Christchurch",
+    "postal-code": "8041",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.riccarton@thewarehouse.co.nz",
+    "phone": "(03) 348 6500",
+    "latitude": "-43.538643",
+    "longitude": "172.584267",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJY8oftZeKMW0Rs6O_1MH0tpQ"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Riccarton. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Riccarton"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "riccarton"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "208",
+    "name": "Westgate",
+    "address1": "12 Maki Street",
+    "address2": "Westgate",
+    "city": "Auckland",
+    "postal-code": "0814",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.westgate@thewarehouse.co.nz",
+    "phone": "09 833 4417",
+    "latitude": "-36.821899",
+    "longitude": "174.610379",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJZ3Api7o7DW0RKRqXcoolWu8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Westgate. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Westgate"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "westgate"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Westgate Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "126",
+    "name": "Nelson",
+    "address1": "23 St Vincent Street",
+    "address2": "Nelson",
+    "city": "Nelson",
+    "postal-code": "7010",
+    "state-code": "NZ-NSN",
+    "country-code": "NZ",
+    "email": "stockroom.nelson@thewarehouse.co.nz",
+    "phone": "03 548 1535",
+    "latitude": "-41.271818",
+    "longitude": "173.27861",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJc7CwKxHtO20RCKYE7zPjEMM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Nelson. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Nelson"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "nelson"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "192",
+    "name": "Mt Roskill",
+    "address1": "22 Stoddard Road",
+    "address2": "Wesley",
+    "city": "Auckland",
+    "postal-code": "1041",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.MtRoskill@thewarehouse.co.nz",
+    "phone": "09 629 0627",
+    "latitude": "-36.908216",
+    "longitude": "174.733761",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJfV12gGFGDW0R52YLd2levcE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Mt Roskill. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Mt Roskill"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "mtroskill"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "173",
+    "name": "Blenheim",
+    "address1": "8 Redwood Street",
+    "address2": "Blenheim",
+    "city": "Blenheim",
+    "postal-code": "7201",
+    "state-code": "NZ-MBH",
+    "country-code": "NZ",
+    "email": "stockroom.blenheim@thewarehouse.co.nz",
+    "phone": "03 577 8762",
+    "latitude": "-41.514426",
+    "longitude": "173.960234",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJS6xs-mQTOW0R-Xcpxt0zMLM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Blenheim. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Blenheim"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "blenheim"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "179",
+    "name": "Queenstown",
+    "address1": "24 Grant Road",
+    "address2": "Frankton",
+    "city": "Queenstown",
+    "postal-code": "9371",
+    "state-code": "NZ-OTA",
+    "country-code": "NZ",
+    "email": "stockroom.queenstown@thewarehouse.co.nz",
+    "phone": "03 441 4400",
+    "latitude": "-45.015827",
+    "longitude": "168.747442",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJHYqu4jce1akRN03kWDN4fTU"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Queenstown. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Queenstown"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "queenstown"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse 5 Mile Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "195",
+    "name": "Ormiston",
+    "address1": "226 Ormiston Road",
+    "address2": "Flat Bush",
+    "city": "Auckland",
+    "postal-code": "2019",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.Ormiston@thewarehouse.co.nz",
+    "phone": "09 953 8392",
+    "latitude": "-36.9408",
+    "longitude": "174.9252",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJNVtCz-VMDW0RKXfdGu8xhPI"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Ormiston. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Ormiston"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "ormiston"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Ormiston Town Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "134",
+    "name": "Noel Leeming Tory St",
+    "address1": "133 Tory Street",
+    "address2": "Te Aro",
+    "city": "Wellington",
+    "postal-code": "6011",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.wellington@thewarehouse.co.nz",
+    "phone": "0800 44 44 88 Ext 48000",
+    "latitude": "-41.297154",
+    "longitude": "174.780255",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "displayAddress",
+          "#text": "Click & Collect Pick-Up Only\nPlease note: The Warehouse Wellington branch is CLOSED for walk-in trade\nClick & Collect pick-up is located inside Noel Leeming Tory Street\n133 Tory Street\nTe Aro\nWellington\n6011"
+        },
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJuzK4ltuvOG0RajrTy2mIlN4"
+        },
+        {
+          "@attribute-id": "locationId",
+          "#text": "1134"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "The Warehouse Wellington branch is CLOSED for walk-in trade. Click & Collect pick-up is located inside Noel Leeming Tory Street."
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Wellington"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "wellington"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 09:00-17:30\", \"Tu 09:00-17:30\", \"We 09:00-17:30\", \"Th 09:00-17:30\", \"Fr 09:00-19:00\", \"Sa 09:00-17:30\", \"Su 10:00-17:30\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "STANDARD"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "Located inside Noel Leeming Tory Street"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "176",
+    "name": "Ashburton",
+    "address1": "10 Kermode Street",
+    "address2": "Ashburton",
+    "city": "Ashburton",
+    "postal-code": "7700",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.ashburton@thewarehouse.co.nz",
+    "phone": "03 308 8746",
+    "latitude": "-43.903752",
+    "longitude": "171.741364",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJfdA5ZK67LW0RIR-yevv7JHs"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Ashburton. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Ashburton"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "ashburton"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "164",
+    "name": "Bell Block",
+    "address1": "26 Bell Block Court",
+    "address2": "Bell Block",
+    "city": "New Plymouth",
+    "postal-code": "4312",
+    "state-code": "NZ-TKI",
+    "country-code": "NZ",
+    "email": "stockroom.bellblock@thewarehouse.co.nz",
+    "phone": "06 755 4201",
+    "latitude": "-39.035976",
+    "longitude": "174.143199",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ-7OrLvZQFG0RJDKbgTlQQQQ"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Bell Block. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Bell Block"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "bellblock"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "142",
+    "name": "Rotorua",
+    "address1": "1128 Amohau Street",
+    "address2": "Rotorua",
+    "city": "Rotorua",
+    "postal-code": "3010",
+    "state-code": "NZ-BOP",
+    "country-code": "NZ",
+    "email": "stockroom.rotorua@thewarehouse.co.nz",
+    "phone": "07 346 3710",
+    "latitude": "-38.140603",
+    "longitude": "176.252351",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJL0uxeWEnbG0RP5wZ8YDGCR8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Rotorua. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Rotorua"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "rotorua"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Rotorua Central"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "165",
+    "name": "Dargaville",
+    "address1": "149 Victoria Street",
+    "address2": "Dargaville",
+    "city": "Dargaville",
+    "postal-code": "0310",
+    "state-code": "NZ-NTL",
+    "country-code": "NZ",
+    "email": "stockroom.dargaville@thewarehouse.co.nz",
+    "phone": "09 439 3120",
+    "latitude": "-35.938923",
+    "longitude": "173.874444",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJz0h8UnESDG0RkoKvIckz9pM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Dargaville. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Dargaville"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "dargaville"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-18:00\", \"Tu 08:00-18:00\", \"We 08:00-18:00\", \"Th 08:00-18:00\", \"Fr 08:00-18:00\", \"Sa 08:00-18:00\", \"Su 08:00-18:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "144",
+    "name": "New Plymouth",
+    "address1": "67 Courtenay Street",
+    "address2": "New Plymouth",
+    "city": "New Plymouth",
+    "postal-code": "4310",
+    "state-code": "NZ-TKI",
+    "country-code": "NZ",
+    "email": "stockroom.newplymouth@thewarehouse.co.nz",
+    "phone": "06 759 8232",
+    "latitude": "-39.057647",
+    "longitude": "174.077289",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ_7hGSkZOFG0RduTY1FykKxI"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in New Plymouth. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse New Plymouth"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "newplymouth"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "113",
+    "name": "Newmarket",
+    "address1": "74 Broadway",
+    "address2": "Newmarket",
+    "city": "Auckland",
+    "postal-code": "1023",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.newmarket@thewarehouse.co.nz",
+    "phone": "09 523 1995",
+    "latitude": "-36.866151",
+    "longitude": "174.779211",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJzWbH8HNIDW0RrcHzxu8DUYw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Newmarket. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Newmarket"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "newmarket"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "172",
+    "name": "Gore",
+    "address1": "9 Irwell Street",
+    "address2": "Gore",
+    "city": "Gore",
+    "postal-code": "9710",
+    "state-code": "NZ-STL",
+    "country-code": "NZ",
+    "email": "stockroom.gore@thewarehouse.co.nz",
+    "phone": "03 208 0008",
+    "latitude": "-46.097889",
+    "longitude": "168.9434",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJtz1Ke57PLKgRQFKxy-NM1ME"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Gore. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Gore"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "gore"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "221",
+    "name": "Auckland Central",
+    "address1": "21 Elliot Street",
+    "address2": "Auckland Central",
+    "city": "Auckland",
+    "postal-code": "1010",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.Atrium@thewarehouse.co.nz",
+    "phone": "09 213 0002",
+    "latitude": "-36.849937",
+    "longitude": "174.76371",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJUR_iTOVHDW0RHTusaWQkZV4"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Atrium. Get more store information at  thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Atrium"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "aucklandcentral"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Atrium on Elliot"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "137",
+    "name": "Levin",
+    "address1": "2 Bristol Street",
+    "address2": "Levin",
+    "city": "Levin",
+    "postal-code": "5510",
+    "state-code": "NZ-MWT",
+    "country-code": "NZ",
+    "email": "stockroom.levin@thewarehouse.co.nz",
+    "phone": "06 368 1552",
+    "latitude": "-40.62133",
+    "longitude": "175.285605",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJyYQMW6f0QG0RdisUebhoCsk"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Levin. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Levin"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "levin"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "177",
+    "name": "Alexandra",
+    "address1": "10 Limerick Street",
+    "address2": "Alexandra",
+    "city": "Alexandra",
+    "postal-code": "9320",
+    "state-code": "NZ-OTA",
+    "country-code": "NZ",
+    "email": "stockroom.alexandra@thewarehouse.co.nz",
+    "phone": "03 440 2013",
+    "latitude": "-45.257733",
+    "longitude": "169.392721",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJfXmnp1IjK6gRZW-hUl4v1zU"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Alexandra. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Alexandra"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "alexandra"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "209",
+    "name": "Auckland Airport",
+    "address1": "1 John Goulter Drive",
+    "address2": "Auckland Airport",
+    "city": "Auckland",
+    "postal-code": "2022",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.airport@thewarehouse.co.nz",
+    "phone": "09 275 0156",
+    "latitude": "-36.996978",
+    "longitude": "174.788555",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "displayAddress",
+          "#text": "The Warehouse Auckland Airport Shopping Centre\n1 John Goulter Drive\nAuckland Airport\n2022, Auckland"
+        },
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJVw-A1O5PDW0RSkU_Cx9utXg"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Airport. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Airport"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "aucklandairport"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 07:00-00:00\", \"Tu 07:00-00:00\", \"We 07:00-00:00\", \"Th 07:00-00:00\", \"Fr 07:00-00:00\", \"Sa 07:00-00:00\", \"Su 07:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Auckland Airport S/C"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "187",
+    "name": "St Lukes",
+    "address1": "7 Wagener Place",
+    "address2": "Mount Albert",
+    "city": "Auckland",
+    "postal-code": "1025",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.NZ-STLukes@thewarehouse.co.nz",
+    "phone": "09 846 9534",
+    "latitude": "-36.885504",
+    "longitude": "174.732257",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJqZCZ91VGDW0RPZiDJ1WW3o4"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in St Lukes. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse St Lukes"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "stlukes"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Wagener Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "163",
+    "name": "Tauranga Fraser Cove",
+    "address1": "241 Fraser Street",
+    "address2": "Tauranga South",
+    "city": "Tauranga",
+    "postal-code": "3112",
+    "state-code": "NZ-BOP",
+    "country-code": "NZ",
+    "email": "stockroom.frasercove@thewarehouse.co.nz",
+    "phone": "07 578 2813",
+    "latitude": "-37.711843",
+    "longitude": "176.150944",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "displayAddress",
+          "#text": "The Warehouse Fraser Cove Shopping Centre\n241 Fraser Street\nTauranga South\n3112, Tauranga"
+        },
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJY1lJH0babW0RQm_8-zspWKE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Fraser Cove. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Fraser Cove"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "taurangafrasercove"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Fraser Cove ShoppingCentre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "193",
+    "name": "Takanini",
+    "address1": "30 Walters Road",
+    "address2": "Takanini",
+    "city": "Auckland",
+    "postal-code": "2112",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.Takanini@thewarehouse.co.nz",
+    "phone": "09 215 0260",
+    "latitude": "-37.048667",
+    "longitude": "174.931813",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJKY-cRs5SDW0RX5iglnREeE8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Takanini. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Takanini"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "takanini"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Takanini Village"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "180",
+    "name": "Rangiora",
+    "address1": "11 High Street",
+    "address2": "Rangiora",
+    "city": "Rangiora",
+    "postal-code": "7400",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.rangiora@thewarehouse.co.nz",
+    "phone": "03 313 0414",
+    "latitude": "-43.303968",
+    "longitude": "172.599469",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJLY40lIyUMW0R68etKuXZT5I"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Rangiora. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Rangiora"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "rangiora"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "207",
+    "name": "Henderson Lincoln Rd",
+    "address1": "111 Lincoln Road",
+    "address2": "Henderson",
+    "city": "Auckland",
+    "postal-code": "0610",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.lincoln@thewarehouse.co.nz",
+    "phone": "09 836 6011",
+    "latitude": "-36.8656",
+    "longitude": "174.630336",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJtW0tIEdADW0RXYl_wCERgy8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Lincoln Rd. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Lincoln Rd"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hendersonlincolnrd"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Lincoln Road"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "168",
+    "name": "Te Kuiti",
+    "address1": "27 Rora Street",
+    "address2": "Te Kuiti",
+    "city": "Te Kuiti",
+    "postal-code": "3910",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.tekuiti@thewarehouse.co.nz",
+    "phone": "07 878 1124",
+    "latitude": "-38.331162",
+    "longitude": "175.161586",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJzUEh_rq7bG0RGAPT8cj4IKM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Te Kuiti. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Te Kuiti"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "tekuiti"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "120",
+    "name": "Papanui",
+    "address1": "21 Sawyers Arms Road",
+    "address2": "Northcote",
+    "city": "Christchurch",
+    "postal-code": "8052",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.northlands@thewarehouse.co.nz",
+    "phone": "03 352 3111",
+    "latitude": "-43.490492",
+    "longitude": "172.610739",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJj2puVJmLMW0RGern8z-_R40"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in the Northlands. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Northlands"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "papanui"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Northlands Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "138",
+    "name": "Upper Hutt",
+    "address1": "84 Queen Street",
+    "address2": "Upper Hutt",
+    "city": "Upper Hutt",
+    "postal-code": "5018",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.upperhutt@thewarehouse.co.nz",
+    "phone": "04 527 7402",
+    "latitude": "-41.123104",
+    "longitude": "175.072508",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJPQt6qLGtQG0Rb1kqhdYFCoE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Upper Hutt. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Upper Hutt"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "upperhutt"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse The Mall"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "110",
+    "name": "Te Awamutu",
+    "address1": "172 George Street",
+    "address2": "Te Awamutu",
+    "city": "Te Awamutu",
+    "postal-code": "3800",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.teawamutu@thewarehouse.co.nz",
+    "phone": "07 870 2579",
+    "latitude": "-38.010854",
+    "longitude": "175.327979",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJfd_q5PbmbG0RToYusXOvAZE"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Te Awamutu. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Te Awamutu"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "teawamutu"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "178",
+    "name": "Spreydon - Barrington",
+    "address1": "256 Barrington Street",
+    "address2": "Spreydon",
+    "city": "Christchurch",
+    "postal-code": "8024",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.barrington@thewarehouse.co.nz",
+    "phone": "03 337 4427",
+    "latitude": "-43.556603",
+    "longitude": "172.620271",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJb8btaAohMm0RE3UDFwUFGjM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Barrington. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Barrington"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "spreydon-barrington"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Barrington Mall"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "117",
+    "name": "Kaitaia",
+    "address1": "2 North Park Drive",
+    "address2": "Kaitaia",
+    "city": "Kaitaia",
+    "postal-code": "0410",
+    "state-code": "NZ-NTL",
+    "country-code": "NZ",
+    "email": "stockroom.kaitaia@thewarehouse.co.nz",
+    "phone": "09 408 6095",
+    "latitude": "-35.097884",
+    "longitude": "173.259577",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ8RLfTad0CW0R236s4C_h0lc"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Kaitaia. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Kaitaia"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "kaitaia"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "188",
+    "name": "Royal Oak",
+    "address1": "100 Pah Road",
+    "address2": "Royal Oak",
+    "city": "Auckland",
+    "postal-code": "1023",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.RoyalOak@thewarehouse.co.nz",
+    "phone": "09 625 9560",
+    "latitude": "-36.912086",
+    "longitude": "174.769963",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJZ5O6_RxGDW0RJBIihKVgXPo"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Royal Oak. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Royal Oak"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "royaloak"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "153",
+    "name": "Gisborne",
+    "address1": "80 Customhouse Street",
+    "address2": "Gisborne",
+    "city": "Gisborne",
+    "postal-code": "4010",
+    "state-code": "NZ-GIS",
+    "country-code": "NZ",
+    "email": "stockroom.gisborne@thewarehouse.co.nz",
+    "phone": "06 868 6260",
+    "latitude": "-38.670765",
+    "longitude": "178.025176",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJr5CErDB4Zm0RPwV-wSkJFtw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Gisborne. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Gisborne"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "gisborne"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "132",
+    "name": "Porirua",
+    "address1": "64 Parumoana Street",
+    "address2": "Porirua City Centre",
+    "city": "Porirua",
+    "postal-code": "5022",
+    "state-code": "NZ-WGN",
+    "country-code": "NZ",
+    "email": "stockroom.porirua@thewarehouse.co.nz",
+    "phone": "04 237 7801",
+    "latitude": "-41.128086",
+    "longitude": "174.839201",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJJ6WzP3RTP20RRjVo3x6W-gU"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Porirua. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Porirua"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "porirua"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "182",
+    "name": "Motueka",
+    "address1": "270 High Street",
+    "address2": "Motueka",
+    "city": "Motueka",
+    "postal-code": "7120",
+    "state-code": "NZ-TAS",
+    "country-code": "NZ",
+    "email": "stockroom.motueka@thewarehouse.co.nz",
+    "phone": "03 528 1079",
+    "latitude": "-41.11435",
+    "longitude": "173.010671",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJS0wyItyGO20Re79TFqMmK6k"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Motueka. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Motueka"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "motueka"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "160",
+    "name": "Hillcrest",
+    "address1": "265 Clyde Street",
+    "address2": "Hamilton East",
+    "city": "Hamilton",
+    "postal-code": "3216",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.hillcrest@thewarehouse.co.nz",
+    "phone": "07 859 2019",
+    "latitude": "-37.789254",
+    "longitude": "175.308409",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJPUReBNoYbW0Rlbzk6y0LxOw"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Hillcrest. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Hillcrest"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hillcrest"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "191",
+    "name": "Silverdale",
+    "address1": "61 Silverdale Street",
+    "address2": "Silverdale",
+    "city": "Auckland",
+    "postal-code": "0932",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "Stockroom.Silverdale@thewarehouse.co.nz",
+    "phone": "09 421 0481",
+    "latitude": "-36.615225",
+    "longitude": "174.680117",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJWdhFSpsjDW0RDv9KEm_gr0A"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Silverdale. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Silverdale"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "silverdale"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Silverdale Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "205",
+    "name": "Clendon",
+    "address1": "451 Roscommon Road",
+    "address2": "Clendon Park",
+    "city": "Auckland",
+    "postal-code": "2103",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.clendon@thewarehouse.co.nz",
+    "phone": "09 267 1830",
+    "latitude": "-37.03238",
+    "longitude": "174.869079",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJAQAAAOxNDW0Re2JiFtzYX-E"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Clendon. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Clendon"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "clendon"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Clendon Shopping Centre"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "161",
+    "name": "Dannevirke",
+    "address1": "6 High Street",
+    "address2": "Dannevirke",
+    "city": "Dannevirke",
+    "postal-code": "4930",
+    "state-code": "NZ-MWT",
+    "country-code": "NZ",
+    "email": "stockroom.dannevirke@thewarehouse.co.nz",
+    "phone": "06 374 9155",
+    "latitude": "-40.210406",
+    "longitude": "176.094822",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJX4nbEJzyQW0RQvPFh3sOdj0"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Dannevirke. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Dannevirke"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "dannevirke"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "185",
+    "name": "Te Rapa",
+    "address1": "401 Wairere Drive",
+    "address2": "Northgate",
+    "city": "Hamilton",
+    "postal-code": "3200",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.terapa@thewarehouse.co.nz",
+    "phone": "07 850 6243",
+    "latitude": "-37.750754",
+    "longitude": "175.233807",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ7w34yv4ibW0RWJKmcdTxork"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Te Rapa. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Te Rapa"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "terapa"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-22:00\", \"Tu 08:00-22:00\", \"We 08:00-22:00\", \"Th 08:00-22:00\", \"Fr 08:00-22:00\", \"Sa 08:00-22:00\", \"Su 08:00-22:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Te Awa The Base"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "210",
+    "name": "Glenfield",
+    "address1": "40 Downing Street",
+    "address2": "Glenfield",
+    "city": "Auckland",
+    "postal-code": "0629",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.glenfield@thewarehouse.co.nz",
+    "phone": "09 443 1020",
+    "latitude": "-36.783248",
+    "longitude": "174.722107",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJx2qw3A85DW0R9_SnTIdVAl4"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Glenfield Mall. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Glenfield Mall"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "glenfield"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Glenfield Mall"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "155",
+    "name": "Whakatane",
+    "address1": "31 Kakahoroa Drive",
+    "address2": "Whakatane",
+    "city": "Whakatane",
+    "postal-code": "3120",
+    "state-code": "NZ-BOP",
+    "country-code": "NZ",
+    "email": "stockroom.whakatane@thewarehouse.co.nz",
+    "phone": "07 308 7132",
+    "latitude": "-37.950995",
+    "longitude": "176.994969",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ5W-D1UQHb20RZplkYWs9Or0"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Whakatane. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Whakatane"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "whakatane"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "127",
+    "name": "Timaru",
+    "address1": "11 Victoria Street",
+    "address2": "Parkside",
+    "city": "Timaru",
+    "postal-code": "7910",
+    "state-code": "NZ-CAN",
+    "country-code": "NZ",
+    "email": "stockroom.timaru@thewarehouse.co.nz",
+    "phone": "03 688 5588",
+    "latitude": "-44.402126",
+    "longitude": "171.252757",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJQ1A-tirCLG0RL7tfxohF-rk"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Timaru. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Timaru"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "timaru"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "111",
+    "name": "Pukekohe",
+    "address1": "124 Manukau Road",
+    "address2": "Pukekohe",
+    "city": "Auckland",
+    "postal-code": "2120",
+    "state-code": "NZ-AUK",
+    "country-code": "NZ",
+    "email": "stockroom.pukekohe@thewarehouse.co.nz",
+    "phone": "09 237 1225",
+    "latitude": "-37.206107",
+    "longitude": "174.909383",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJTdf2UH5IDW0Ro8aknvJ0q-A"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Pukekohe. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Pukekohe"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "pukekohe"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "141",
+    "name": "Hamilton",
+    "address1": "130 Ward Street",
+    "address2": "Hamilton Central",
+    "city": "Hamilton",
+    "postal-code": "3204",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.hamilton@thewarehouse.co.nz",
+    "phone": "07 838 2088",
+    "latitude": "-37.787283",
+    "longitude": "175.279328",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJl8asjK8YbW0RVCGi84R49_A"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Hamilton. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Hamilton"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hamilton"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "145",
+    "name": "Whanganui",
+    "address1": "100 Taupo Quay",
+    "address2": "Whanganui",
+    "city": "Whanganui",
+    "postal-code": "4500",
+    "state-code": "NZ-MWT",
+    "country-code": "NZ",
+    "email": "stockroom.wanganui@thewarehouse.co.nz",
+    "phone": "06 348 0171",
+    "latitude": "-39.93595",
+    "longitude": "175.052362",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "displayAddress",
+          "#text": "The Warehouse Trafalgar Square Shopping Centre\n100 Taupo Quay\nWhanganui\n4500"
+        },
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJQ79abr0DQG0R9bmJ6Twy5as"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Whanganui. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Whanganui"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "whanganui"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse Trafalgar Square S/C"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "140",
+    "name": "Hawera",
+    "address1": "275 High Street",
+    "address2": "Hawera",
+    "city": "Hawera",
+    "postal-code": "4610",
+    "state-code": "NZ-TKI",
+    "country-code": "NZ",
+    "email": "stockroom.hawera@thewarehouse.co.nz",
+    "phone": "06 278 5771",
+    "latitude": "-39.588078",
+    "longitude": "174.277367",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ11fPX-N1FW0R5M05UwBe9dA"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Hawera. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Hawera"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hawera"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "159",
+    "name": "Cambridge",
+    "address1": "33 Wilson Street",
+    "address2": "Cambridge",
+    "city": "Cambridge",
+    "postal-code": "3434",
+    "state-code": "NZ-WKO",
+    "country-code": "NZ",
+    "email": "stockroom.cambridge@thewarehouse.co.nz",
+    "phone": "07 823 3588",
+    "latitude": "-37.896601",
+    "longitude": "175.4706",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJ0TjXf3v9bG0RZioPddc1Mu8"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Cambridge. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Cambridge"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "cambridge"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-20:00\", \"Tu 08:00-20:00\", \"We 08:00-20:00\", \"Th 08:00-20:00\", \"Fr 08:00-20:00\", \"Sa 08:00-20:00\", \"Su 08:00-20:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "151",
+    "name": "Hastings",
+    "address1": "620 Karamu Road North",
+    "address2": "Hastings",
+    "city": "Hastings",
+    "postal-code": "4122",
+    "state-code": "NZ-HKB",
+    "country-code": "NZ",
+    "email": "stockroom.hastings@thewarehouse.co.nz",
+    "phone": "06 876 6682",
+    "latitude": "-39.638813",
+    "longitude": "176.850448",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJG9kNxTfKaW0RTU4RXB_-HnM"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in Hastings. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse Hastings"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "hastings"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-21:00\", \"Tu 08:00-21:00\", \"We 08:00-21:00\", \"Th 08:00-21:00\", \"Fr 08:00-21:00\", \"Sa 08:00-21:00\", \"Su 08:00-21:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  },
+  {
+    "@store-id": "183",
+    "name": "South Dunedin",
+    "address1": "64 Hillside Road",
+    "address2": "South Dunedin",
+    "city": "Dunedin",
+    "postal-code": "9012",
+    "state-code": "NZ-OTA",
+    "country-code": "NZ",
+    "email": "stockroom.dunedinsouth@thewarehouse.co.nz",
+    "phone": "03 456 4134",
+    "latitude": "-45.891961",
+    "longitude": "170.500908",
+    "store-locator-enabled-flag": "true",
+    "demandware-pos-enabled-flag": "false",
+    "pos-enabled-flag": "false",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "googlePlaceId",
+          "#text": "ChIJdZvZvqeuLqgR2hM5FTOp0FQ"
+        },
+        {
+          "@attribute-id": "pageDescription",
+          "@lang": "x-default",
+          "#text": "Check out the opening hours, closing hours and store location for The Warehouse in South Dunedin. Get more store information at thewarehouse.co.nz/stores. Visit us today!"
+        },
+        {
+          "@attribute-id": "pageTitle",
+          "@lang": "x-default",
+          "#text": "The Warehouse South Dunedin"
+        },
+        {
+          "@attribute-id": "storeDetailsContentAssetId",
+          "#text": "green-gardening-thumbnail"
+        },
+        {
+          "@attribute-id": "storeDetailsPageId",
+          "#text": "southdunedin"
+        },
+        {
+          "@attribute-id": "storeHoursJson",
+          "#text": "{\"openingHours\": [\"Mo 08:00-00:00\", \"Tu 08:00-00:00\", \"We 08:00-00:00\", \"Th 08:00-00:00\", \"Fr 08:00-00:00\", \"Sa 08:00-00:00\", \"Su 08:00-00:00\"]}"
+        },
+        {
+          "@attribute-id": "storePickUpStatus",
+          "#text": "SAME-DAY"
+        },
+        {
+          "@attribute-id": "suite",
+          "#text": "The Warehouse"
+        }
+      ]
+    }
+  }
+]

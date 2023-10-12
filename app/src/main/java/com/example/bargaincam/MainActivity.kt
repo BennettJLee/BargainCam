@@ -59,9 +59,11 @@ import com.google.mlkit.vision.text.TextRecognizer
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
@@ -76,6 +78,8 @@ class MainActivity : ComponentActivity() {
 
     private lateinit var promotionData: PromotionData
 
+    private lateinit var storeFinder: StoreFinder
+
     /**
      * This function is called when this activity is started
      */
@@ -87,9 +91,11 @@ class MainActivity : ComponentActivity() {
         // set up promotion pop-up window
         promotionWindow = PromotionWindow(this)
 
-        //Initialise the promotion data
+
+
+        //Initialise the store and promotion data
+        storeFinder = StoreFinder
         promotionData = PromotionData
-        promotionData.loadJsonData(208) // StoreNum goes here after running the locationFinder
 
 
         // Check if the app already has permissions
@@ -103,19 +109,18 @@ class MainActivity : ComponentActivity() {
             }
 
         }
+
+        storeFinder.loadJsonData()
+        val storeNum = storeFinder.getCurrentStore(this)
+        Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
+
+        promotionData.loadJsonData(storeNum)
+
     }
 
     /**
      * This function starts the Camera Preview
      */
-//    private fun startCamera() {
-//        val previewView: PreviewView = viewBinding.viewFinder
-//        cameraController = LifecycleCameraController(baseContext)
-//        cameraController.bindToLifecycle(this)
-//        cameraController.cameraSelector = CameraSelector.DEFAULT_BACK_CAMERA
-//        previewView.controller = cameraController
-//    }
-
     @Composable
     private fun CameraLaunch() {
 
@@ -130,11 +135,14 @@ class MainActivity : ComponentActivity() {
         fun onTextUpdated(updatedText: String) {
             numText = updatedText.filter { it.isDigit() }
             detectedText = numText
-            aisleNum = Integer.parseInt(detectedText)
-            if(lastAisleNum == -1 || lastAisleNum != aisleNum){
-                lastAisleNum = aisleNum
-                promotionWindow.closePromotionWindow()
-                promotionWindow.showPromotionWindow(aisleNum)
+            val textLength : Int = detectedText.length
+            if(textLength in 1..2){
+                aisleNum = Integer.parseInt(detectedText)
+                if(lastAisleNum == -1 || lastAisleNum != aisleNum){
+                    lastAisleNum = aisleNum
+                    promotionWindow.closePromotionWindow()
+                    promotionWindow.showPromotionWindow(aisleNum)
+                }
             }
         }
 
@@ -246,7 +254,7 @@ class MainActivity : ComponentActivity() {
         private val REQUIRED_PERMISSIONS =
             mutableListOf(
                 android.Manifest.permission.CAMERA,
-                android.Manifest.permission.ACCESS_COARSE_LOCATION
+                android.Manifest.permission.ACCESS_FINE_LOCATION
             )
         fun hasPermissions(context: Context) = REQUIRED_PERMISSIONS.all {
             ContextCompat.checkSelfPermission(context, it) == PackageManager.PERMISSION_GRANTED
