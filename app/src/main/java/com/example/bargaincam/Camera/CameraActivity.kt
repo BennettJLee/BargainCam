@@ -2,6 +2,7 @@ package com.example.bargaincam.Camera
 
 import android.content.Context
 import android.graphics.Color
+import android.graphics.Rect
 import android.media.Image
 import android.os.Bundle
 import android.view.ViewGroup
@@ -55,8 +56,6 @@ import kotlin.coroutines.suspendCoroutine
 class CameraActivity : ComponentActivity() {
 
     private lateinit var viewBinding: ActivityMainBinding
-
-    private lateinit var cameraController: LifecycleCameraController
 
     private lateinit var promotionWindow: PromotionWindow
 
@@ -150,12 +149,15 @@ class CameraActivity : ComponentActivity() {
         }
     }
 
+
+
     private fun startTextRecognition(context: Context, cameraController: LifecycleCameraController, lifecycleOwner: LifecycleOwner,
         previewView: PreviewView, onDetectedTextUpdated: (String) -> Unit) {
         cameraController.imageAnalysisTargetSize = CameraController.OutputSize(AspectRatio.RATIO_16_9)
         cameraController.setImageAnalysisAnalyzer(ContextCompat.getMainExecutor(context), TextRecognitionAnalyzer(onDetectedTextUpdated = onDetectedTextUpdated))
         cameraController.bindToLifecycle(lifecycleOwner)
         previewView.controller = cameraController
+
     }
 
     class TextRecognitionAnalyzer(private val onDetectedTextUpdated: (String) -> Unit) : ImageAnalysis.Analyzer {
@@ -176,8 +178,32 @@ class CameraActivity : ComponentActivity() {
                 suspendCoroutine { continuation ->
                     textRecognizer.process(inputImage)
                         .addOnSuccessListener { visionText: Text ->
-                            val detectedText: String = visionText.text
-                            if (detectedText.isNotBlank()) {
+
+                            var boundingBoxLarge  = Rect()
+                            var textLarge = " "
+
+
+                            for (block in visionText.textBlocks) {
+                                for (line in block.lines) {
+                                    val boundingBox = line.boundingBox
+                                    val cornerPoints = line.cornerPoints
+                                    val text = line.text
+                                    text.filter { it.isDigit() }
+                                    if (boundingBox != null && text.isNotBlank()) {
+                                        if(boundingBox.height() > boundingBoxLarge.height()){
+                                            boundingBoxLarge = boundingBox
+                                            if(text.isNotBlank())
+                                            {
+                                                textLarge = text
+                                                boundingBoxLarge = boundingBox
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            if (textLarge.isNotBlank()) {
+                                val detectedText = textLarge
                                 onDetectedTextUpdated(detectedText)
                             }
                         }
