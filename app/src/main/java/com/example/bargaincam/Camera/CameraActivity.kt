@@ -188,14 +188,15 @@ class CameraActivity : ComponentActivity() {
                                     val boundingBox = line.boundingBox
                                     val cornerPoints = line.cornerPoints
                                     val text = line.text
-                                    text.filter { it.isDigit() }
-                                    if (boundingBox != null && text.isNotBlank()) {
-                                        if(boundingBox.height() > boundingBoxLarge.height()){
-                                            boundingBoxLarge = boundingBox
-                                            if(text.isNotBlank())
-                                            {
-                                                textLarge = text
+                                    if(!text.contains("$")) {
+                                        text.filter { it.isDigit() }
+                                        if (boundingBox != null && text.isNotBlank()) {
+                                            if (boundingBox.height() > boundingBoxLarge.height()) {
                                                 boundingBoxLarge = boundingBox
+                                                if (text.isNotBlank()) {
+                                                    textLarge = text
+                                                    boundingBoxLarge = boundingBox
+                                                }
                                             }
                                         }
                                     }
