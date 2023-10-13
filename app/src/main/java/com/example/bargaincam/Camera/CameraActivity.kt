@@ -92,7 +92,7 @@ class CameraActivity : ComponentActivity() {
     }
 
     /**
-     * This function starts the Camera Preview
+     * This function sets up the Camera Preview and Functionality
      */
     @Composable
     private fun CameraLaunch() {
@@ -105,6 +105,7 @@ class CameraActivity : ComponentActivity() {
         var aisleNum: Int
         var lastAisleNum = -1
 
+        //filters the result of a text update and tries to display the promotion window for the aisle it receives
         fun onTextUpdated(updatedText: String) {
             numText = updatedText.filter { it.isDigit() }
             detectedText = numText
@@ -151,15 +152,21 @@ class CameraActivity : ComponentActivity() {
 
 
 
+    /**
+     * This function sets up the Text Recognition to the camera feed
+     */
     private fun startTextRecognition(context: Context, cameraController: LifecycleCameraController, lifecycleOwner: LifecycleOwner,
         previewView: PreviewView, onDetectedTextUpdated: (String) -> Unit) {
         cameraController.imageAnalysisTargetSize = CameraController.OutputSize(AspectRatio.RATIO_16_9)
         cameraController.setImageAnalysisAnalyzer(ContextCompat.getMainExecutor(context), TextRecognitionAnalyzer(onDetectedTextUpdated = onDetectedTextUpdated))
         cameraController.bindToLifecycle(lifecycleOwner)
         previewView.controller = cameraController
-
     }
 
+    /**
+     * This function analyses the text and currently works to filter the received text
+     * down to the line fragment that has the largest bounding height and consists of only numbers
+     */
     class TextRecognitionAnalyzer(private val onDetectedTextUpdated: (String) -> Unit) : ImageAnalysis.Analyzer {
 
         companion object {
@@ -181,13 +188,12 @@ class CameraActivity : ComponentActivity() {
 
                             var boundingBoxLarge  = Rect()
                             var textLarge = " "
-
-
                             for (block in visionText.textBlocks) {
                                 for (line in block.lines) {
                                     val boundingBox = line.boundingBox
                                     val cornerPoints = line.cornerPoints
                                     val text = line.text
+                                    //series of checks that results it the line with the largest boundingbox height that consists of only numbers being saved
                                     if(!text.contains("$")) {
                                         text.filter { it.isDigit() }
                                         if (boundingBox != null && text.isNotBlank()) {
@@ -202,7 +208,7 @@ class CameraActivity : ComponentActivity() {
                                     }
                                 }
                             }
-
+                            //double checking result is not blank then updating the detected text with the new aisle number being looked at
                             if (textLarge.isNotBlank()) {
                                 val detectedText = textLarge
                                 onDetectedTextUpdated(detectedText)
