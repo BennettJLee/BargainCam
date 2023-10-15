@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/bargainCamButton"
-        android:layout_width="115dp"
-        android:layout_height="98dp"
+        android:layout_width="214dp"
+        android:layout_height="101dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="104dp"
         android:backgroundTint="#F44336"
