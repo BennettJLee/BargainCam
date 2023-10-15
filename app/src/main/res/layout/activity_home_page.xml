@@ -4,14 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/warehousebackground"
     tools:context=".HomePageActivity">
 
     <Button
         android:id="@+id/bargainCamButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="162dp"
-        android:layout_marginTop="340dp"
+        android:layout_width="115dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="104dp"
+        android:backgroundTint="#F44336"
         android:text="BargainCam"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
