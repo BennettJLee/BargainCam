@@ -7,7 +7,7 @@
         "promotionStartDate": "19/09/2023",
         "promotionEndDate": "26/09/2024",
         "promotionProductCount": 105,
-        "location": "(405,Isle12)\n(208,Isle15)\n(103,Isle16)\n(222,Isle1)\n(160,Isle20)"
+        "location": "(405,Isle12)\n(208,Isle15)\n(103,Isle16)\n(222,Isle1)\n(160,Isle20)\n(210,Isle1)"
     },
     {
         "promotionId": "35572-2",
@@ -17,7 +17,7 @@
         "promotionStartDate": "19/09/2023",
         "promotionEndDate": "26/09/2024",
         "promotionProductCount": 38,
-        "location": "(405,Isle9)\n(208,Isle7)\n(103,Isle3)\n(222,Isle2)\n(160,Isle19)"
+        "location": "(405,Isle9)\n(208,Isle7)\n(103,Isle3)\n(222,Isle2)\n(160,Isle19)\n(210,Isle2)"
     },
     {
         "promotionId": "35572-3",
@@ -27,7 +27,7 @@
         "promotionStartDate": "2023-10-10T11:00:00.000Z",
         "promotionEndDate": "2024-10-17T11:00:00.000Z",
         "promotionProductCount": 67,
-        "location": "(405,Isle9)\n(208,Isle6)\n(103,Isle4)\n(222,Isle3)\n(160,Isle18)"
+        "location": "(405,Isle9)\n(208,Isle6)\n(103,Isle4)\n(222,Isle3)\n(160,Isle18)\n(210,Isle3)"
     },
     {
         "promotionId": "35572-4",
@@ -37,7 +37,7 @@
         "promotionStartDate": "2023-10-10T11:00:00.000Z",
         "promotionEndDate": "2024-10-17T11:00:00.000Z",
         "promotionProductCount": 23,
-        "location": "(405,Isle13)\n(208,Isle5)\n(103,Isle12)\n(222,Isle4)\n(160,Isle17)"
+        "location": "(405,Isle13)\n(208,Isle5)\n(103,Isle12)\n(222,Isle4)\n(160,Isle17)\n(210,Isle4)"
     },
     {
         "promotionId": "35572-5",
@@ -47,7 +47,7 @@
         "promotionStartDate": "2023-10-10T11:00:00.000Z",
         "promotionEndDate": "2024-10-17T11:00:00.000Z",
         "promotionProductCount": 56,
-        "location": "(405,Isle2)\n(208,Isle12)\n(103,Isle12)\n(222,Isle5)\n(160,Isle16)"
+        "location": "(405,Isle2)\n(208,Isle12)\n(103,Isle12)\n(222,Isle5)\n(160,Isle16)\n(210,Isle5)"
     },
     {
         "promotionId": "35572-6",
@@ -57,7 +57,7 @@
         "promotionStartDate": "2023-10-10T11:00:00.000Z",
         "promotionEndDate": "2024-10-17T11:00:00.000Z",
         "promotionProductCount": 98,
-        "location": "(405,Isle2)\n(208,Isle2)\n(103,Isle18)\n(222,Isle6)\n(160,Isle15)"
+        "location": "(405,Isle2)\n(208,Isle2)\n(103,Isle18)\n(222,Isle6)\n(160,Isle15)\n(210,Isle6)"
     },
     {
         "promotionId": "35572-7",
@@ -67,7 +67,7 @@
         "promotionStartDate": "2023-10-11T11:00:00.000Z",
         "promotionEndDate": "2024-10-18T11:00:00.000Z",
         "promotionProductCount": 56,
-        "location": "(405,Isle21)\n(208,Isle4)\n(103,Isle5)\n(222,Isle7)\n(160,Isle14)"
+        "location": "(405,Isle21)\n(208,Isle4)\n(103,Isle5)\n(222,Isle7)\n(160,Isle14)\n(210,Isle7)"
     },
     {
         "promotionId": "35572-8",
@@ -77,7 +77,7 @@
         "promotionStartDate": "2023-10-11T11:00:00.000Z",
         "promotionEndDate": "2024-10-18T11:00:00.000Z",
         "promotionProductCount": 34,
-        "location": "(405,Isle9)\n(208,Isle6)\n(103,Isle12)\n(222,Isle8)\n(160,Isle13)"
+        "location": "(405,Isle9)\n(208,Isle6)\n(103,Isle12)\n(222,Isle8)\n(160,Isle13)\n(210,Isle8)"
     },
     {
         "promotionId": "35572-9",
@@ -87,7 +87,7 @@
         "promotionStartDate": "2023-10-11T11:00:00.000Z",
         "promotionEndDate": "2024-10-18T11:00:00.000Z",
         "promotionProductCount": 123,
-        "location": "(405,Isle20)\n(208,Isle1)\n(103,Isle7)\n(222,Isle9)\n(160,Isle12)"
+        "location": "(405,Isle20)\n(208,Isle1)\n(103,Isle7)\n(222,Isle9)\n(160,Isle12)\n(210,Isle9)"
     },
     {
         "promotionId": "35572-10",
@@ -97,7 +97,7 @@
         "promotionStartDate": "2023-10-11T11:00:00.000Z",
         "promotionEndDate": "2024-10-18T11:00:00.000Z",
         "promotionProductCount": 76,
-        "location": "(405,Isle4)\n(208,Isle6)\n(103,Isle6)\n(222,Isle10)\n(160,Isle11)"
+        "location": "(405,Isle4)\n(208,Isle6)\n(103,Isle6)\n(222,Isle10)\n(160,Isle11)\n(210,Isle10)"
     },
     {
         "promotionId": "35572-11",
@@ -107,7 +107,7 @@
         "promotionStartDate": "2023-10-13T11:00:00.000Z",
         "promotionEndDate": "2024-10-20T11:00:00.000Z",
         "promotionProductCount": 11,
-        "location": "(405,Isle19)\n(208,Isle18)\n(103,Isle19)\n(222,Isle11)\n(160,Isle10)"
+        "location": "(405,Isle19)\n(208,Isle18)\n(103,Isle19)\n(222,Isle11)\n(160,Isle10)\n(210,Isle11)"
     },
     {
         "promotionId": "35572-12",
@@ -117,7 +117,7 @@
         "promotionStartDate": "2023-10-13T11:00:00.000Z",
         "promotionEndDate": "2024-10-20T11:00:00.000Z",
         "promotionProductCount": 12,
-        "location": "(405,Isle6)\n(208,Isle10)\n(103,Isle11)\n(222,Isle12)\n(160,Isle9)"
+        "location": "(405,Isle6)\n(208,Isle10)\n(103,Isle11)\n(222,Isle12)\n(160,Isle9)\n(210,Isle12)"
     },
     {
         "promotionId": "35572-13",
@@ -127,7 +127,7 @@
         "promotionStartDate": "2023-10-11T11:00:00.000Z",
         "promotionEndDate": "2024-10-18T11:00:00.000Z",
         "promotionProductCount": 104,
-        "location": "(405,Isle10)\n(208,Isle11)\n(103,Isle2)\n(222,Isle13)\n(160,Isle8)"
+        "location": "(405,Isle10)\n(208,Isle11)\n(103,Isle2)\n(222,Isle13)\n(160,Isle8)\n(210,Isle13)"
     },
     {
         "promotionId": "35572-14",
@@ -137,7 +137,7 @@
         "promotionStartDate": "2023-10-10T11:00:00.000Z",
         "promotionEndDate": "2024-10-17T11:00:00.000Z",
         "promotionProductCount": 65,
-        "location": "(405,Isle20)\n(208,Isle14)\n(103,Isle15)\n(222,Isle14)\n(160,Isle7)"
+        "location": "(405,Isle20)\n(208,Isle14)\n(103,Isle15)\n(222,Isle14)\n(160,Isle7)\n(210,Isle14)"
     },
     {
         "promotionId": "35572-15",
@@ -147,7 +147,7 @@
         "promotionStartDate": "2023-10-17T11:00:00.000Z",
         "promotionEndDate": "2024-10-24T11:00:00.000Z",
         "promotionProductCount": 96,
-        "location": "(405,Isle19)\n(208,Isle19)\n(103,Isle4)\n(222,Isle15)\n(160,Isle6)"
+        "location": "(405,Isle19)\n(208,Isle19)\n(103,Isle4)\n(222,Isle15)\n(160,Isle6)\n(210,Isle15)"
     },
     {
         "promotionId": "35572-16",
@@ -157,7 +157,7 @@
         "promotionStartDate": "2023-10-08T11:00:00.000Z",
         "promotionEndDate": "2024-10-15T11:00:00.000Z",
         "promotionProductCount": 34,
-        "location": "(405,Isle5)\n(208,Isle18)\n(103,Isle4)\n(222,Isle16)\n(160,Isle5)"
+        "location": "(405,Isle5)\n(208,Isle18)\n(103,Isle4)\n(222,Isle16)\n(160,Isle5)\n(210,Isle16)"
     },
     {
         "promotionId": "35572-17",
@@ -167,7 +167,7 @@
         "promotionStartDate": "2023-10-10T11:00:00.000Z",
         "promotionEndDate": "2024-10-17T11:00:00.000Z",
         "promotionProductCount": 76,
-        "location": "(405,Isle18)\n(208,Isle7)\n(103,Isle5)\n(222,Isle17)\n(160,Isle4)"
+        "location": "(405,Isle18)\n(208,Isle7)\n(103,Isle5)\n(222,Isle17)\n(160,Isle4)\n(210,Isle17)"
     },
     {
         "promotionId": "35572-18",
@@ -177,7 +177,7 @@
         "promotionStartDate": "2023-10-19T11:00:00.000Z",
         "promotionEndDate": "2024-10-26T11:00:00.000Z",
         "promotionProductCount": 154,
-        "location": "(405,Isle22)\n(208,Isle4)\n(103,Isle15)\n(222,Isle18)\n(160,Isle3)"
+        "location": "(405,Isle22)\n(208,Isle4)\n(103,Isle15)\n(222,Isle18)\n(160,Isle3)\n(210,Isle18)"
     },
     {
         "promotionId": "35572-19",
@@ -187,7 +187,7 @@
         "promotionStartDate": "2023-10-29T11:00:00.000Z",
         "promotionEndDate": "2024-11-05T11:00:00.000Z",
         "promotionProductCount": 23,
-        "location": "(405,Isle4)\n(208,Isle6)\n(103,Isle19)\n(222,Isle19)\n(160,Isle2)"
+        "location": "(405,Isle4)\n(208,Isle6)\n(103,Isle19)\n(222,Isle19)\n(160,Isle2)\n(210,Isle19)"
     },
     {
         "promotionId": "35572-20",
@@ -197,6 +197,6 @@
         "promotionStartDate": "2023-10-30T11:00:00.000Z",
         "promotionEndDate": "2024-11-06T11:00:00.000Z",
         "promotionProductCount": 85,
-        "location": "(405,Isle5)\n(208,Isle14)\n(103,Isle16)\n(222,Isle20)\n(160,Isle1)"
+        "location": "(405,Isle5)\n(208,Isle14)\n(103,Isle16)\n(222,Isle20)\n(160,Isle1)\n(210,Isle20)"
     }
 ]
