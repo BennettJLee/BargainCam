@@ -59,7 +59,6 @@ dependencies {
     implementation("androidx.camera:camera-camera2:${cameraxVersion}")
     implementation("androidx.camera:camera-lifecycle:${cameraxVersion}")
     implementation("androidx.camera:camera-view:${cameraxVersion}")
-    //implementation("androidx.camera:camera-mlkit-vision:${camerax_version}")
 
     implementation("com.squareup.okhttp3:okhttp:4.9.0")
     implementation("com.squareup.picasso:picasso:2.71828")
@@ -95,6 +94,4 @@ dependencies {
     implementation("androidx.compose.material:material:1.4.3")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-
-
 }

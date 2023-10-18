@@ -112,7 +112,7 @@ class CameraActivity : ComponentActivity() {
             val textLength : Int = detectedText.length
             if(textLength in 1..2){
                 aisleNum = Integer.parseInt(detectedText)
-                if(lastAisleNum == -1 || lastAisleNum != aisleNum || !promotionWindow.isShowing()){
+                if(aisleNum > 0 && ( aisleNum != lastAisleNum || !promotionWindow.isShowing())){
                     lastAisleNum = aisleNum
                     promotionWindow.closePromotionWindow()
                     promotionWindow.showPromotionWindow(aisleNum)
