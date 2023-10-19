@@ -195,9 +195,8 @@ class CameraActivity : ComponentActivity() {
                             for (block in visionText.textBlocks) {
                                 for (line in block.lines) {
                                     val boundingBox = line.boundingBox
-                                    val cornerPoints = line.cornerPoints
                                     val text = line.text
-                                    //series of checks that results it the line with the largest boundingbox height that consists of only numbers being saved
+                                    //series of checks that results it the line with the largest bounding-box height that consists of only numbers being saved
                                     if(!text.contains("$")) {
                                         text.filter { it.isDigit() }
                                         if (boundingBox != null && text.isNotBlank()) {
