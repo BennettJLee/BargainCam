@@ -22,10 +22,10 @@ class HomePageActivity : AppCompatActivity() {
         bargainCamButton.setOnClickListener {
             // Create an intent to launch BargainCamActivity
 
-            if (!HomePageActivity.hasPermissions(baseContext)) {
+            if (!hasPermissions(baseContext)) {
 
                 // if not, request permissions
-                activityResultLauncher.launch(HomePageActivity.REQUIRED_PERMISSIONS.toTypedArray())
+                activityResultLauncher.launch(REQUIRED_PERMISSIONS.toTypedArray())
             } else {
 
                 // is so, proceed to camera activity
@@ -43,7 +43,7 @@ class HomePageActivity : AppCompatActivity() {
         { permissions ->
             var permissionGranted = true
             permissions.entries.forEach {
-                if (it.key in REQUIRED_PERMISSIONS && it.value == false)
+                if (it.key in REQUIRED_PERMISSIONS && !it.value)
                     permissionGranted = false
             }
             // check if the permission has been granted
@@ -61,7 +61,6 @@ class HomePageActivity : AppCompatActivity() {
      * This object stores the permissions and has a function that checks permissions status
      */
     companion object {
-        private const val TAG = "BargainCamPrivate"
         private val REQUIRED_PERMISSIONS =
             mutableListOf(
                 android.Manifest.permission.CAMERA,

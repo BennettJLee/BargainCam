@@ -60,7 +60,7 @@ class PromotionWindow(private val activity: Activity) {
                 promotionText.text = item.name
                 endDateText.text = "Ends " + item.endDate
                 Picasso.get().load(item.image).into(promotionImage)
-                break;
+                break
             }
         }
 
