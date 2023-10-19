@@ -86,7 +86,6 @@ class CameraActivity : ComponentActivity() {
         //Load the store data, find the current store and load the relevant promotion data
         storeFinder.loadJsonData()
         val storeNum = storeFinder.getCurrentStore(this)
-        Toast.makeText(this, storeNum.toString(), Toast.LENGTH_LONG).show()
         promotionData.loadJsonData(storeNum)
 
     }

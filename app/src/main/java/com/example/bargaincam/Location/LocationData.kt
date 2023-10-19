@@ -31,7 +31,6 @@ object StoreFinder {
         runBlocking {
             launch(Dispatchers.IO) {
                 try {
-
                     storeList = locationData.loadDataFromUrl(url)
 
                 } catch (e: Exception) {
