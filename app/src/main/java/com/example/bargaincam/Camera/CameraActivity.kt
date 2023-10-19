@@ -110,12 +110,10 @@ class CameraActivity : ComponentActivity() {
             numText = updatedText.filter { it.isDigit() }
             detectedText = numText
             val textLength : Int = detectedText.length
+            //If the number being read is the length of 1-2
             if(textLength in 1..2){
                 aisleNum = Integer.parseInt(detectedText)
-                if(!promotionWindow.isShowing())
-                {
-                    lastAisleNum = -1
-                }
+                // if the aisle number is valid and not the same as the last one scanned while open then show the promotion
                 if(aisleNum > 0 && ( aisleNum != lastAisleNum || !promotionWindow.isShowing())){
                     lastAisleNum = aisleNum
                     promotionWindow.closePromotionWindow()
